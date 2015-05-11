@@ -1,0 +1,3 @@
+# badrihippo.github.io
+
+I'm trying to set up a site here. It's not working yet, because I'm having some trouble with Ruby, but hopefully it'll be functional some time...
