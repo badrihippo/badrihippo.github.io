@@ -35,5 +35,3 @@ DEFAULT_PAGINATION = 10
 THEME = 'themes/pelican-bootstrap3'
 
 OUTPUT_PATH = '../master/'
-
-DISQUS_SITENAME = "badrihippo-github"
