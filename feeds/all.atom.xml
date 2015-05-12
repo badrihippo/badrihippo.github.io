@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>~badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/all.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-11T00:00:00+05:30</updated><entry><title>Source Code</title><link href="http://badrihippo.github.io/source-code.html" rel="alternate"></link><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:source-code.html</id><summary type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
+have different sets of features. Blogger is a simple blog. Wordpress allows you 
+to add more customization, pages, and widgets. Tumblr is more like a microblog,
+with your posts coming in Twitter-style streams as well as personal, themable 
+blog websites. There's also Weebly, About.me, Typepad, and so on.&lt;/p&gt;
+&lt;p&gt;They all have nice features, and nice editors. Some are focused on simplicity;
+some on customiability. But the reason I've finally switched to GitHub Pages is
+that it allows me to edit the pages from source.&lt;/p&gt;
+&lt;p&gt;Yes, the WYSIWYG editors do have an "Edit HTML" option. Some services let you
+customize the templates and stylesheets. But if there's one small markup change
+I want to make, I sometimes have to go all over the place to find out how to do
+it in the GUI.&lt;/p&gt;
+&lt;p&gt;With GitHub Pages, the program that generates the website is right here, on my
+computer. I can write posts as simple &lt;code&gt;.md&lt;/code&gt; files, but if I want to I can also
+change the HTML, or go even deeper and tweak how the program itself processes 
+the input. The interface is simple if I want it to be, but I can also go as 
+deep as I want.&lt;/p&gt;
+&lt;p&gt;Lots of people are using frameworks and CMSes now. The age of editing raw code
+is coming to and end, it seems. But still, sometimes one &lt;em&gt;does&lt;/em&gt; feel like going
+down and giving the HTML a tweak.&lt;/p&gt;
+&lt;p&gt;One problem--and feature-- of WYSIWYG editors is that they manipulate the code.
+Even after you go to the HTML view and make an edit, they'll usually tweak and
+restructure that edit to fit their methodr. This can be useful, having the
+editor "clean up" after you. But, as you go through many edits, the WYSIWYG
+sometimes ends up making the code unnecessarily messy and convoluted. Suppose,
+for example, I had selected some text to be bold. And then, later, I changed my
+mind. But now, to unselect it, I'm not sure whether I need to un-bold the
+surrounding spaces as well, or not. I find myself constantly switching to the
+Source view to make sure that there isn't a redundant &lt;code&gt;&amp;lt;b&amp;gt;&amp;amp;nbsp;&amp;lt;/b&amp;gt;&lt;/code&gt; sitting 
+in the middle of the text.&lt;/p&gt;
+&lt;p&gt;Then, there is also the problem of paragraphing. Am I actually writing in a
+proper &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, or is it actually just random text with a liberal scattering of
+&lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt;s? Some editors even throw a couple of &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s into the mix.&lt;/p&gt;
+&lt;p&gt;I know, it looks okay in the end. But at the back, there's a lot of unnecessary
+markup that I don't like leaving behind. I don't know if it'll come in the way
+some time in the future.&lt;/p&gt;
+&lt;p&gt;For example, I have a collection of emails with text &lt;code&gt;Ctrl+V&lt;/code&gt;ed from different
+websites. Recently, I was trying to concatenate them into a single HTML file,
+which I could then convert to ePub to use on my eReader. But when I started, I
+found that not only has the text been copied from the website, but so has the
+markup: complete with all its extra formatting and styling! From emails, it's 
+even worse than from web pages, because elements can't even be given classes
+from elsewhere. Each element needs to be have its styles embedded into its tag,
+giving you something like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;A&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;b&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;villanelle&lt;span class="nt"&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;(also known as&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;i&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;villanesque&lt;span class="nt"&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;)&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;sup&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;line-height:1em;color:rgb(0,0,0);font-family:sans-serif&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://en.wikipedia.org/wiki/Villanelle#cite_note-Kaster_1903_p._279-1&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text-decoration:none;color:rgb(11,0,128);background-image:none;white-space:nowrap&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;target=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;[1]&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&amp;lt;/sup&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;is a nineteen-line&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://en.wikipedia.org/wiki/Poetry&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;title=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Poetry&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text-decoration:none;color:rgb(11,0,128);background-image:none;font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;target=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;poetic&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;form consisting of five&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://en.wikipedia.org/wiki/Tercet&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;title=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Tercet&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text-decoration:none;color:rgb(11,0,128);background-image:none;font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;target=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;tercets&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;(three line stanza)&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;followed by a&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://en.wikipedia.org/wiki/Quatrain&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;title=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Quatrain&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;text-decoration:none;color:rgb(11,0,128);background-image:none;font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;target=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;quatrain&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;(four line stanza)
+&lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;.&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Ahem. How about just&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A villanelle (also known as villanesque) is a nineteen-line poetic form 
+consisting of five tercets (three line stanza)  followed by a quatrain 
+(four line stanza).&lt;span class="nt"&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Much simpler, and the extra styling isn't even required in the email! The
+line-breaks are mine, by the way.&lt;/p&gt;
+&lt;p&gt;Anyway, so for now I have my blog posts in markdown, and if I ever need to 
+convert them to another format, I can just re-generate from &lt;code&gt;.md&lt;/code&gt;s instead of
+having to hand-edit the styling to make it fit. After a lot of searching, I've
+finally found a blogging platform that works for me.&lt;/p&gt;
+&lt;p&gt;For now, at least.&lt;/p&gt;
+&lt;p&gt;Hopefully.&lt;/p&gt;</summary></entry><entry><title>git speaks</title><link href="http://badrihippo.github.io/git-speaks.html" rel="alternate"></link><updated>2015-05-06T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-06:git-speaks.html</id><summary type="html">&lt;p&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;All your files&lt;br /&gt;
+ are up to date&lt;br /&gt;
+You’ve shown no activity&lt;br /&gt;
+ as of late  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout -b&lt;/code&gt;&lt;br /&gt;
+Getting your act together, I see.  &lt;/p&gt;
+&lt;p&gt;I know you’re in a rush,&lt;br /&gt;
+ but all the same&lt;br /&gt;
+it would be a good idea&lt;br /&gt;
+ to specify the branch name.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout -b \&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;all-bugs-eradication&lt;/code&gt;&lt;br /&gt;
+All? You may be enthusiastic,&lt;br /&gt;
+ but isn’t that too much ambition?&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;./test.py&lt;/code&gt;&lt;br /&gt;
+Testing…done. But why!&lt;/p&gt;
+&lt;p&gt;Not a single bug found—&lt;br /&gt;
+ that’s too good to be true!&lt;br /&gt;
+Oh, wait, there’s no code either.&lt;br /&gt;
+ Lots of work ahead for you!&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout master&lt;/code&gt;&lt;br /&gt;
+ Are you planning to work faster?&lt;/p&gt;
+&lt;p&gt;Or leave it to someone else&lt;br /&gt;
+ in the spirit of collaboration?&lt;br /&gt;
+&lt;code&gt;git branch -d \  
+ all-bugs-eradication&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It’s the latter, I see.&lt;br /&gt;
+&lt;code&gt;Ctrl+D&lt;/code&gt;&lt;/p&gt;</summary></entry></feed>
