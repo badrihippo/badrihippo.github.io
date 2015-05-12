@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>Source Code - ~badrihippo</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="/source-code.html">
+
+        <meta name="author" content="Hippo" />
+        <meta name="description" content="I&#39;ve tried out various blogging sites. Wordpress, Blogger, Tumblr. They each have different sets of features. Blogger is a simple blog. Wordpress allows you to add more customization, pages, and widgets. Tumblr is more like a microblog, with your posts coming in Twitter-style streams as well as personal, themable ..." />
+
+        <meta property="og:site_name" content="~badrihippo" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Source Code"/>
+        <meta property="og:url" content="/source-code.html"/>
+        <meta property="og:description" content="I&#39;ve tried out various blogging sites. Wordpress, Blogger, Tumblr. They each have different sets of features. Blogger is a simple blog. Wordpress allows you to add more customization, pages, and widgets. Tumblr is more like a microblog, with your posts coming in Twitter-style streams as well as personal, themable ..."/>
+        <meta property="article:published_time" content="2015-05-11" />
+            <meta property="article:section" content="misc" />
+            <meta property="article:author" content="Hippo" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+~badrihippo            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="/category/misc.html">Misc</a>
+                        </li>
+                        <li >
+                            <a href="/category/poem.html">Poem</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/source-code.html"
+                       rel="bookmark"
+                       title="Permalink to Source Code">
+                        Source Code
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-05-11T00:00:00+05:30"> Mon 11 May 2015</time>
+    </span>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
+have different sets of features. Blogger is a simple blog. Wordpress allows you 
+to add more customization, pages, and widgets. Tumblr is more like a microblog,
+with your posts coming in Twitter-style streams as well as personal, themable 
+blog websites. There's also Weebly, About.me, Typepad, and so on.</p>
+<p>They all have nice features, and nice editors. Some are focused on simplicity;
+some on customiability. But the reason I've finally switched to GitHub Pages is
+that it allows me to edit the pages from source.</p>
+<p>Yes, the WYSIWYG editors do have an "Edit HTML" option. Some services let you
+customize the templates and stylesheets. But if there's one small markup change
+I want to make, I sometimes have to go all over the place to find out how to do
+it in the GUI.</p>
+<p>With GitHub Pages, the program that generates the website is right here, on my
+computer. I can write posts as simple <code>.md</code> files, but if I want to I can also
+change the HTML, or go even deeper and tweak how the program itself processes 
+the input. The interface is simple if I want it to be, but I can also go as 
+deep as I want.</p>
+<p>Lots of people are using frameworks and CMSes now. The age of editing raw code
+is coming to and end, it seems. But still, sometimes one <em>does</em> feel like going
+down and giving the HTML a tweak.</p>
+<p>One problem--and feature-- of WYSIWYG editors is that they manipulate the code.
+Even after you go to the HTML view and make an edit, they'll usually tweak and
+restructure that edit to fit their methodr. This can be useful, having the
+editor "clean up" after you. But, as you go through many edits, the WYSIWYG
+sometimes ends up making the code unnecessarily messy and convoluted. Suppose,
+for example, I had selected some text to be bold. And then, later, I changed my
+mind. But now, to unselect it, I'm not sure whether I need to un-bold the
+surrounding spaces as well, or not. I find myself constantly switching to the
+Source view to make sure that there isn't a redundant <code>&lt;b&gt;&amp;nbsp;&lt;/b&gt;</code> sitting 
+in the middle of the text.</p>
+<p>Then, there is also the problem of paragraphing. Am I actually writing in a
+proper <code>&lt;p&gt;</code>, or is it actually just random text with a liberal scattering of
+<code>&lt;br&gt;</code>s? Some editors even throw a couple of <code>&lt;div&gt;</code>s into the mix.</p>
+<p>I know, it looks okay in the end. But at the back, there's a lot of unnecessary
+markup that I don't like leaving behind. I don't know if it'll come in the way
+some time in the future.</p>
+<p>For example, I have a collection of emails with text <code>Ctrl+V</code>ed from different
+websites. Recently, I was trying to concatenate them into a single HTML file,
+which I could then convert to ePub to use on my eReader. But when I started, I
+found that not only has the text been copied from the website, but so has the
+markup: complete with all its extra formatting and styling! From emails, it's 
+even worse than from web pages, because elements can't even be given classes
+from elsewhere. Each element needs to be have its styles embedded into its tag,
+giving you something like this:</p>
+<div class="highlight"><pre><span class="nt">&lt;div&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span>A<span class="ni">&amp;nbsp;</span><span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;b</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span>villanelle<span class="nt">&lt;/b&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>(also known as<span class="ni">&amp;nbsp;</span><span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;i</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span>villanesque<span class="nt">&lt;/i&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span>)<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;sup</span> <span class="na">style=</span><span class="s">&quot;line-height:1em;color:rgb(0,0,0);font-family:sans-serif&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Villanelle#cite_note-Kaster_1903_p._279-1&quot;</span> <span class="na">style=</span><span class="s">&quot;text-decoration:none;color:rgb(11,0,128);background-image:none;white-space:nowrap&quot;</span> <span class="na">target=</span><span class="s">&quot;_blank&quot;</span><span class="nt">&gt;</span>[1]<span class="nt">&lt;/a&gt;&lt;/sup&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>is a nineteen-line<span class="ni">&amp;nbsp;</span><span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Poetry&quot;</span> <span class="na">title=</span><span class="s">&quot;Poetry&quot;</span> <span class="na">style=</span><span class="s">&quot;text-decoration:none;color:rgb(11,0,128);background-image:none;font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span> <span class="na">target=</span><span class="s">&quot;_blank&quot;</span><span class="nt">&gt;</span>poetic<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>form consisting of five<span class="ni">&amp;nbsp;</span><span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Tercet&quot;</span> <span class="na">title=</span><span class="s">&quot;Tercet&quot;</span> <span class="na">style=</span><span class="s">&quot;text-decoration:none;color:rgb(11,0,128);background-image:none;font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span> <span class="na">target=</span><span class="s">&quot;_blank&quot;</span><span class="nt">&gt;</span>tercets<span class="nt">&lt;/a&gt;</span>
+<span class="ni">&amp;nbsp;</span>(three line stanza)<span class="ni">&amp;nbsp;</span>
+<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>followed by a<span class="ni">&amp;nbsp;</span><span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/Quatrain&quot;</span> <span class="na">title=</span><span class="s">&quot;Quatrain&quot;</span> <span class="na">style=</span><span class="s">&quot;text-decoration:none;color:rgb(11,0,128);background-image:none;font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span> <span class="na">target=</span><span class="s">&quot;_blank&quot;</span><span class="nt">&gt;</span>quatrain<span class="nt">&lt;/a&gt;</span>
+<span class="ni">&amp;nbsp;</span>(four line stanza)
+<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">&quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&quot;</span><span class="nt">&gt;</span>.<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+
+
+<p>Ahem. How about just</p>
+<div class="highlight"><pre><span class="nt">&lt;p&gt;</span>A villanelle (also known as villanesque) is a nineteen-line poetic form 
+consisting of five tercets (three line stanza)  followed by a quatrain 
+(four line stanza).<span class="nt">&lt;/p&gt;</span>
+</pre></div>
+
+
+<p>Much simpler, and the extra styling isn't even required in the email! The
+line-breaks are mine, by the way.</p>
+<p>Anyway, so for now I have my blog posts in markdown, and if I ever need to 
+convert them to another format, I can just re-generate from <code>.md</code>s instead of
+having to hand-edit the styling to make it fit. After a lot of searching, I've
+finally found a blogging platform that works for me.</p>
+<p>For now, at least.</p>
+<p>Hopefully.</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://github.com/badrihippo"><i class="fa fa-github-square fa-lg"></i> github</a></li>
+              </ul>
+            </li>
+
+
+
+            <li class="list-group-item"><a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group " id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://thekambattupics.tk/" target="_blank">
+                Thekambattu Pictures
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2015 Hippo
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
