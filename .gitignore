@@ -1,3 +1,3 @@
-.geany
-.pyc
-output/
+*.geany
+*.pyc
+cache/*
