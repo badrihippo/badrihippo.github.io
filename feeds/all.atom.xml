@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>~badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/all.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-11T00:00:00+05:30</updated><entry><title>Source Code</title><link href="http://badrihippo.github.io/source-code.html" rel="alternate"></link><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:source-code.html</id><summary type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>~badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/all.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-11T00:00:00+05:30</updated><entry><title>Markdown</title><link href="http://badrihippo.github.io/markdown.html" rel="alternate"></link><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:markdown.html</id><summary type="html">&lt;p&gt;I still remember when&lt;br /&gt;
+I first heard about it.&lt;br /&gt;
+&lt;code&gt;.md&lt;/code&gt;—Markdown.&lt;br /&gt;
+Huh? What is it?&lt;/p&gt;
+&lt;p&gt;It's a language specially&lt;br /&gt;
+for formatting text&lt;br /&gt;
+into a few styles like: &lt;em&gt;italic&lt;/em&gt;,&lt;br /&gt;
+&lt;strong&gt;bold&lt;/strong&gt;, &lt;code&gt;code&lt;/code&gt;, and &lt;del&gt;cancelled text&lt;/del&gt;.&lt;/p&gt;
+&lt;p&gt;A whole new language&lt;br /&gt;
+just for that simple task?&lt;br /&gt;
+And why can't I just use&lt;br /&gt;
+HTML, may I ask?&lt;/p&gt;
+&lt;p&gt;Too complex for newcomers&lt;br /&gt;
+to learn quickly, is it?&lt;br /&gt;
+A WYSIWYG editor&lt;br /&gt;
+could help on their visit!&lt;/p&gt;
+&lt;p&gt;Developers don't have time to&lt;br /&gt;
+learn yet another new lang&lt;br /&gt;
+And normal bloggers? Well—&lt;br /&gt;
+they just don't know that they can.&lt;/p&gt;
+&lt;p&gt;Neither simple for newcomers&lt;br /&gt;
+who don't want to code,&lt;br /&gt;
+nor feature-full for devs&lt;br /&gt;
+with a lot on their load&lt;/p&gt;
+&lt;p&gt;But now I understand.&lt;/p&gt;
+&lt;p&gt;For simple docs, &lt;code&gt;.htm&lt;/code&gt;&lt;br /&gt;
+is too cumbersome to write.&lt;br /&gt;
+WYSIWYGs don't give results,&lt;br /&gt;
+if complex, without a fight.&lt;br /&gt;
+But &lt;code&gt;.md&lt;/code&gt;—Markdown&lt;br /&gt;
+—it seems just right!&lt;/p&gt;</summary><category term="markdown"></category><category term="markup"></category><category term="code-poetry"></category></entry><entry><title>Source Code</title><link href="http://badrihippo.github.io/source-code.html" rel="alternate"></link><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:source-code.html</id><summary type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
 have different sets of features. Blogger is a simple blog. Wordpress allows you 
 to add more customization, pages, and widgets. Tumblr is more like a microblog,
 with your posts coming in Twitter-style streams as well as personal, themable 
@@ -78,7 +108,7 @@ convert them to another format, I can just re-generate from &lt;code&gt;.md&lt;/
 having to hand-edit the styling to make it fit. After a lot of searching, I've
 finally found a blogging platform that works for me.&lt;/p&gt;
 &lt;p&gt;For now, at least.&lt;/p&gt;
-&lt;p&gt;Hopefully.&lt;/p&gt;</summary></entry><entry><title>git speaks</title><link href="http://badrihippo.github.io/git-speaks.html" rel="alternate"></link><updated>2015-05-06T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-06:git-speaks.html</id><summary type="html">&lt;p&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Hopefully.&lt;/p&gt;</summary><category term="markdown"></category><category term="blogs"></category><category term="markup"></category><category term="html"></category><category term="wysiwyg"></category></entry><entry><title>git speaks</title><link href="http://badrihippo.github.io/git-speaks.html" rel="alternate"></link><updated>2015-05-06T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-06:git-speaks.html</id><summary type="html">&lt;p&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;All your files&lt;br /&gt;
  are up to date&lt;br /&gt;
 You’ve shown no activity&lt;br /&gt;
@@ -106,4 +136,4 @@ Oh, wait, there’s no code either.&lt;br /&gt;
 &lt;code&gt;git branch -d \  
  all-bugs-eradication&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;It’s the latter, I see.&lt;br /&gt;
-&lt;code&gt;Ctrl+D&lt;/code&gt;&lt;/p&gt;</summary></entry></feed>
+&lt;code&gt;Ctrl+D&lt;/code&gt;&lt;/p&gt;</summary><category term="git"></category><category term="python"></category><category term="code-poetry"></category></entry></feed>
