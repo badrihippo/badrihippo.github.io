@@ -1,6 +1,6 @@
 Title: git speaks
 Date: 2015-05-06
-Category: Poem
+Category: Poetry
 
 `git status`
 
