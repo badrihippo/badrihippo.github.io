@@ -1,6 +1,7 @@
 Title: Markdown
 Date: 2015-05-11
 Category: Poetry
+Tags: markdown, markup, code-poetry
 
 I still remember when  
 I first heard about it.  

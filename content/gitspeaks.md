@@ -1,6 +1,7 @@
 Title: git speaks
 Date: 2015-05-06
 Category: Poetry
+Tags: git, python, code-poetry
 
 `git status`
 

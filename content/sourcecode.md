@@ -1,5 +1,6 @@
 Title: Source Code
 Date: 2015-05-11
+Tags: markdown, blogs, markup, html, wysiwyg
 
 I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
 have different sets of features. Blogger is a simple blog. Wordpress allows you 
