@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>~badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/websites.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-17T00:00:00+05:30</updated><entry><title>Pelican on a Branch</title><link href="http://badrihippo.github.io/pelican-on-a-branch.html" rel="alternate"></link><updated>2015-05-17T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-17:pelican-on-a-branch.html</id><summary type="html">&lt;p&gt;After trying various services like Blogger and Wordpress, I finally settled
+on GitHub Pages. (The &lt;a href="http://badrihippo.github.io/source-code.html"&gt;Source Code&lt;/a&gt; post earlier
+explains why). I tried installing Jekyll, but there was some problem with my
+Ruby installation (partly because I was on 
+&lt;a href="http://puppylinux.org"&gt;Puppy Linux&lt;/a&gt;),so I started searching for alternatives.
+I came across &lt;a href="http://www.pydanny.com/choosing-a-new-python-based-blog-engine.html"&gt;this post&lt;/a&gt;
+about &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt;, a Python-powered Jekyll-like page
+generator.&lt;/p&gt;
+&lt;p&gt;Here, I'm going to tell you how to set up &lt;em&gt;this&lt;/em&gt; blog, using Pelican and 
+GitHub Pages. I'll skip the many bits that I did and undid later, and instead
+tell you what I would do &lt;em&gt;now&lt;/em&gt; if I wanted to get to my current setup.&lt;/p&gt;
+&lt;h2&gt;GitHub Pages&lt;/h2&gt;
+&lt;p&gt;This blog is a &lt;strong&gt;user&lt;/strong&gt; site, http://badrihippo.github.io, as opposed to a
+&lt;strong&gt;project&lt;/strong&gt; site. In User sites, what is served is the contents of the main
+&lt;code&gt;master&lt;/code&gt; branch of the repo. For project sites, the site is hosted on the
+&lt;code&gt;gh-pages&lt;/code&gt; branch, because &lt;code&gt;master&lt;/code&gt; will probably be used for the main project.
+(I'm assuming you're familiar with using git branches.)&lt;/p&gt;
+&lt;p&gt;So, after creating the repo, as instructed on the 
+&lt;a href="https://help.github.com/articles/user-organization-and-project-pages/"&gt;Help Page&lt;/a&gt;,
+I can use &lt;code&gt;git clone&lt;/code&gt; to clone it into my local folder, then add the new posts
+I want and send them back up with &lt;code&gt;git push origin master&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;But I'm not creating the pages myself - I'm using Pelican to generate the pages!
+So I'll have to set up the source files outside, and tell Pelican to store the 
+generated pages in my git repo folder.&lt;/p&gt;
+&lt;h2&gt;Meet the Pelican&lt;/h2&gt;
+&lt;p&gt;Pelican is a pages content generator, similar to Jekyll but written in Python.
+Since I already had Python and virtualenv installed, all I had to do to get
+Pelican was &lt;code&gt;pip install markdown pelican&lt;/code&gt;. I needed to install &lt;code&gt;markdown&lt;/code&gt; as
+well because I was planning to write my source posts in &lt;a href="http://daringfireball.net/projects/markdown/"&gt;markdown&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install a Pelican website, you &lt;code&gt;cd&lt;/code&gt; to that folder and do &lt;code&gt;pelican-quickstart&lt;/code&gt;
+(note: single command).
+This is an interactive command, which asks you for various info to generate your
+initial config file, like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/hippo/Desktop
+&lt;span class="nv"&gt;$ &lt;/span&gt;mkdir pelitest
+&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;pelitest
+&lt;span class="nv"&gt;$ &lt;/span&gt;pelican-quickstart
+
+Welcome to pelican-quickstart v3.5.0.
+
+This script will &lt;span class="nb"&gt;help &lt;/span&gt;you create a new Pelican-based website.
+
+Please answer the following questions so this script can generate the files
+needed by Pelican.
+
+&amp;gt; Where &lt;span class="k"&gt;do&lt;/span&gt; you want to create your new web site? &lt;span class="o"&gt;[&lt;/span&gt;.&lt;span class="o"&gt;]&lt;/span&gt;  
+&amp;gt; What will be the title of this web site? My Pelican Blog
+&amp;gt; Who will be the author of this web site? Badri Sunderarajan
+&amp;gt; What will be the default language of this web site? &lt;span class="o"&gt;[&lt;/span&gt;en&lt;span class="o"&gt;]&lt;/span&gt;  
+&amp;gt; Do you want to specify a URL prefix? e.g., http://example.com   &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt;  y
+&amp;gt; What is your URL prefix? &lt;span class="o"&gt;(&lt;/span&gt;see above example&lt;span class="p"&gt;;&lt;/span&gt; no trailing slash&lt;span class="o"&gt;)&lt;/span&gt; http://badrihippo.github.io
+&amp;gt; Do you want to &lt;span class="nb"&gt;enable &lt;/span&gt;article pagination? &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt; y
+&amp;gt; How many articles per page &lt;span class="k"&gt;do&lt;/span&gt; you want? &lt;span class="o"&gt;[&lt;/span&gt;10&lt;span class="o"&gt;]&lt;/span&gt; 
+&amp;gt; Do you want to generate a Fabfile/Makefile to automate generation and publishing? &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt; 
+&amp;gt; Do you want an auto-reload &lt;span class="p"&gt;&amp;amp;&lt;/span&gt; simpleHTTP script to assist with theme and site development? &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt; 
+&amp;gt; Do you want to upload your website using FTP? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
+&amp;gt; Do you want to upload your website using SSH? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
+&amp;gt; Do you want to upload your website using Dropbox? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
+&amp;gt; Do you want to upload your website using S3? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
+&amp;gt; Do you want to upload your website using Rackspace Cloud Files? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
+&amp;gt; Do you want to upload your website using GitHub Pages? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; y
+&amp;gt; Is this your personal page &lt;span class="o"&gt;(&lt;/span&gt;username.github.io&lt;span class="o"&gt;)&lt;/span&gt;? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; y
+Done. Your new project is available at /home/hippo/Desktop/pelitest
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Of course, normally I wouldn't create the site on my desktop; this is just for
+the example.&lt;/p&gt;
+&lt;p&gt;The above command will create &lt;code&gt;pelicanconf.py&lt;/code&gt;, &lt;code&gt;publishconf.py&lt;/code&gt;, and two folders:
+&lt;code&gt;content&lt;/code&gt; and &lt;code&gt;output&lt;/code&gt;. You write posts in the &lt;code&gt;.htm&lt;/code&gt;, &lt;code&gt;.rst&lt;/code&gt; or &lt;code&gt;.md&lt;/code&gt; formats,
+giving the metadata on top. Here's an example &lt;code&gt;.md&lt;/code&gt; post:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Hello&lt;/span&gt; &lt;span class="n"&gt;World&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Test&lt;/span&gt;
+&lt;span class="n"&gt;Tags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;hello&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;word&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;test&lt;/span&gt;
+
+&lt;span class="n"&gt;Hello&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;Pelican&lt;/span&gt;&lt;span class="o"&gt;!**&lt;/span&gt;
+
+&lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;see&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;are&lt;/span&gt; &lt;span class="n"&gt;rendering&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="n"&gt;first&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt; &lt;span class="o"&gt;:)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Save this as &lt;code&gt;helloworld.md&lt;/code&gt; in the &lt;code&gt;./content&lt;/code&gt; folder, and run &lt;code&gt;pelican content&lt;/code&gt; 
+to generate the HTML into the &lt;code&gt;output&lt;/code&gt; folder, which you can then view in your
+browser.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Pelican site" src="http://badrihippo.github.io/images/pelisite.png" /&gt;&lt;/p&gt;
+&lt;p&gt;One tip I got from the Pelican docs is to &lt;code&gt;cd&lt;/code&gt; to the &lt;code&gt;output&lt;/code&gt; folder and run
+&lt;code&gt;python -m SimpleHTTPServer&lt;/code&gt;. This serves the folder contents on &lt;code&gt;localhost:8000&lt;/code&gt;,
+allowing your browser to load stylesheets and other media in addition to the main
+&lt;code&gt;.htm&lt;/code&gt; page. If you select the option during setup, you can also run the 
+&lt;code&gt;./develop_server.sh&lt;/code&gt; script to run a development server.&lt;/p&gt;
+&lt;p&gt;There are two config files, as I mentioned earlier: &lt;code&gt;pelicanconf.py&lt;/code&gt; is the default
+one used by Pelican, and &lt;code&gt;publishconf.py&lt;/code&gt; is where you can put additional settings
+to use in production. To use the publish settings, you do 
+&lt;code&gt;pelican content -s publishconf.py&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In the config files, you can do various things like add links and change themes,
+but I won't got into those details—you can see the &lt;a href="http://docs.getpelican.com"&gt;Pelican docs&lt;/a&gt;
+for all the info.&lt;/p&gt;
+&lt;p&gt;The setting &lt;em&gt;I'm&lt;/em&gt; interested in right now is &lt;code&gt;OUTPUT_PATH&lt;/code&gt;, which tells Pelican
+which folder to store the rendered website in. The default is the &lt;code&gt;output&lt;/code&gt; folder,
+but I want it to go into my GitHub Pages repo. Setting 
+&lt;code&gt;OUTPUT = '.../badrihippo.github.io&lt;/code&gt; does the trick.&lt;/p&gt;
+&lt;h2&gt;Set up the Branches&lt;/h2&gt;
+&lt;p&gt;While the final HTML content goes to &lt;code&gt;master&lt;/code&gt; on the &lt;code&gt;badrihippo.github.io&lt;/code&gt; repo,
+I also wanted to have my other Pelican sources and config files available synced.
+So I decided to have &lt;em&gt;two&lt;/em&gt; branches on &lt;code&gt;badrihippo.github.io&lt;/code&gt;: a &lt;code&gt;pelican&lt;/code&gt; branch
+for the source files, and a &lt;code&gt;master&lt;/code&gt; branch for the final output. After a bit of
+experimeting, and thanks to &lt;a href="https://gist.github.com/chrisjacob/833223"&gt;this gist&lt;/a&gt;
+by &lt;a href="https://github.com/chrisjacob"&gt;chrisjacob&lt;/a&gt;, I finally settled on this directory
+structure:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;badrihippo.github.io/
+├── master/
+│   └── (contents of master branch)
+└── pelican/
+    └── (contents of pelican branch)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;master&lt;/code&gt; branch was already on GitHub, so I created the folder and added the
+repo as origin, and pulled changes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;badrihippo.github.io &lt;span class="c"&gt;# Note: this is a new, empty folder&lt;/span&gt;
+&lt;span class="nv"&gt;$ &lt;/span&gt;mkdir master
+&lt;span class="nv"&gt;$ &lt;/span&gt;git init    &lt;span class="c"&gt;# initialie new git repo&lt;/span&gt;
+&lt;span class="nv"&gt;$ &lt;/span&gt;git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+&lt;span class="nv"&gt;$ &lt;/span&gt;git pull    &lt;span class="c"&gt;# pull changes from repo before any modifications&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;pelican&lt;/code&gt; folder already existed, but there was no repo yet. So after moving
+the folder to the correct place (and deleting the &lt;code&gt;output&lt;/code&gt; directory), I did:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git init    &lt;span class="c"&gt;# initialise new git repo&lt;/span&gt;
+&lt;span class="nv"&gt;$ &lt;/span&gt;git checkout -b pelican    &lt;span class="c"&gt;# Create new &amp;#39;pelican&amp;#39; branch&lt;/span&gt;
+&lt;span class="nv"&gt;$ &lt;/span&gt;git add .    &lt;span class="c"&gt;# Add &amp;amp; commit files&lt;/span&gt;
+&lt;span class="nv"&gt;$ &lt;/span&gt;git commit
+&lt;span class="nv"&gt;$ &lt;/span&gt;git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+&lt;span class="nv"&gt;$ &lt;/span&gt;git push origin pelican &lt;span class="c"&gt;# Push changes to GitHub&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The last command creates a new branch called &lt;code&gt;pelican&lt;/code&gt; on the GitHub repo, with
+the contents of the local &lt;code&gt;pelican&lt;/code&gt; directory/branch inside.&lt;/p&gt;
+&lt;p&gt;One more change to do: open &lt;code&gt;publishconf.py&lt;/code&gt; and comment out the
+&lt;code&gt;DELETE_OUTPUT_DIRECTORY = True&lt;/code&gt; line (or change it to &lt;code&gt;False&lt;/code&gt;). That settings
+tells Pelican to delete and re-create the output directory every time pages are
+generated, which is not what we want. Because it'll delete our git repo files as
+well.&lt;/p&gt;
+&lt;p&gt;Also set &lt;code&gt;OUTPUT_PATH = '../master/'&lt;/code&gt; so your changes get saved into the &lt;code&gt;master&lt;/code&gt;
+directory&lt;/p&gt;
+&lt;p&gt;Now, you have two folders, each containing a different branch of the Github repo. 
+For safety, you can delete the &lt;code&gt;master&lt;/code&gt; branch from the &lt;code&gt;pelcian&lt;/code&gt; folder's repo so
+you don't commit to it by mistake:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;pelican
+&lt;span class="nv"&gt;$ &lt;/span&gt;git branch -d master
+&lt;span class="nv"&gt;$ &lt;/span&gt;git branch &lt;span class="c"&gt;# Check branch status&lt;/span&gt;
+* pelican
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Good: the branch is deleted.&lt;/p&gt;
+&lt;h2&gt;New Post&lt;/h2&gt;
+&lt;p&gt;Now, here's my procedure when writing a new post:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write the post in markdown and save it in &lt;code&gt;pelican/content&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add&lt;/code&gt; and &lt;code&gt;git commit&lt;/code&gt; the new post (again from within the &lt;code&gt;pelican&lt;/code&gt; folder)&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;pelican content -s publishconf.py&lt;/code&gt;. This generated the website pages in the
+   &lt;code&gt;master&lt;/code&gt; directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin pelican&lt;/code&gt; to upload the source changes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ../master&lt;/code&gt;, &lt;code&gt;git commit -a&lt;/code&gt; and &lt;code&gt;git push origin master&lt;/code&gt; to push the published
+   website change.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Afterthought&lt;/h2&gt;
+&lt;p&gt;Having set this up, I'm wondering: do I really &lt;em&gt;need&lt;/em&gt; to have two branches? There's 
+nothing wrong with letting website visitors to see the source folder, if they know
+how to do it: it's all there on GitHub anyway. Maybe I should just tell Pelican to
+save content in the main directory itself (instead of a new &lt;code&gt;output&lt;/code&gt; directory), and
+have everything—config files, &lt;code&gt;content&lt;/code&gt; folder, templates, and output—all in one branch.&lt;/p&gt;
+&lt;p&gt;The setup I described in the article, which I'm using right now, may make sense from a
+git perspective, because the source is tracked separately from generated content (which
+actually needn't be tracked at all). But it would be more convenient to be able to post
+with just one commit. &lt;/p&gt;
+&lt;p&gt;And I doubt my blog will need much version control, anyway.&lt;/p&gt;</summary><category term="code"></category><category term="python"></category><category term="pelican"></category><category term="git"></category><category term="github"></category><category term="github-pages"></category><category term="blog"></category></entry></feed>

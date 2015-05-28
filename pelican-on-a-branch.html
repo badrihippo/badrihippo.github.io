@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>Pelican on a Branch - ~badrihippo</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="http://badrihippo.github.io/pelican-on-a-branch.html">
+
+        <meta name="author" content="Hippo" />
+        <meta name="keywords" content="code,python,pelican,git,github,github-pages,blog" />
+        <meta name="description" content="After trying various services like Blogger and Wordpress, I finally settled on GitHub Pages. (The Source Code post earlier explains why). I tried installing Jekyll, but there was some problem with my Ruby installation (partly because I was on Puppy Linux),so I started searching for alternatives. I came across ..." />
+
+        <meta property="og:site_name" content="~badrihippo" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Pelican on a Branch"/>
+        <meta property="og:url" content="http://badrihippo.github.io/pelican-on-a-branch.html"/>
+        <meta property="og:description" content="After trying various services like Blogger and Wordpress, I finally settled on GitHub Pages. (The Source Code post earlier explains why). I tried installing Jekyll, but there was some problem with my Ruby installation (partly because I was on Puppy Linux),so I started searching for alternatives. I came across ..."/>
+        <meta property="article:published_time" content="2015-05-17" />
+            <meta property="article:section" content="Websites" />
+            <meta property="article:tag" content="code" />
+            <meta property="article:tag" content="python" />
+            <meta property="article:tag" content="pelican" />
+            <meta property="article:tag" content="git" />
+            <meta property="article:tag" content="github" />
+            <meta property="article:tag" content="github-pages" />
+            <meta property="article:tag" content="blog" />
+            <meta property="article:author" content="Hippo" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://badrihippo.github.io/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://badrihippo.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://badrihippo.github.io/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://badrihippo.github.io/theme/css/style.css" type="text/css"/>
+
+        <link href="http://badrihippo.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="~badrihippo ATOM Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://badrihippo.github.io/" class="navbar-brand">
+~badrihippo            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li >
+                            <a href="http://badrihippo.github.io/category/misc.html">Misc</a>
+                        </li>
+                        <li >
+                            <a href="http://badrihippo.github.io/category/poetry.html">Poetry</a>
+                        </li>
+                        <li class="active">
+                            <a href="http://badrihippo.github.io/category/websites.html">Websites</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://badrihippo.github.io/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://badrihippo.github.io/pelican-on-a-branch.html"
+                       rel="bookmark"
+                       title="Permalink to Pelican on a Branch">
+                        Pelican on a Branch
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-05-17T00:00:00+05:30"> Sun 17 May 2015</time>
+    </span>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="http://badrihippo.github.io/tag/code.html">code</a>
+        /
+	<a href="http://badrihippo.github.io/tag/python.html">python</a>
+        /
+	<a href="http://badrihippo.github.io/tag/pelican.html">pelican</a>
+        /
+	<a href="http://badrihippo.github.io/tag/git.html">git</a>
+        /
+	<a href="http://badrihippo.github.io/tag/github.html">github</a>
+        /
+	<a href="http://badrihippo.github.io/tag/github-pages.html">github-pages</a>
+        /
+	<a href="http://badrihippo.github.io/tag/blog.html">blog</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>After trying various services like Blogger and Wordpress, I finally settled
+on GitHub Pages. (The <a href="http://badrihippo.github.io/source-code.html">Source Code</a> post earlier
+explains why). I tried installing Jekyll, but there was some problem with my
+Ruby installation (partly because I was on 
+<a href="http://puppylinux.org">Puppy Linux</a>),so I started searching for alternatives.
+I came across <a href="http://www.pydanny.com/choosing-a-new-python-based-blog-engine.html">this post</a>
+about <a href="http://getpelican.com">Pelican</a>, a Python-powered Jekyll-like page
+generator.</p>
+<p>Here, I'm going to tell you how to set up <em>this</em> blog, using Pelican and 
+GitHub Pages. I'll skip the many bits that I did and undid later, and instead
+tell you what I would do <em>now</em> if I wanted to get to my current setup.</p>
+<h2>GitHub Pages</h2>
+<p>This blog is a <strong>user</strong> site, http://badrihippo.github.io, as opposed to a
+<strong>project</strong> site. In User sites, what is served is the contents of the main
+<code>master</code> branch of the repo. For project sites, the site is hosted on the
+<code>gh-pages</code> branch, because <code>master</code> will probably be used for the main project.
+(I'm assuming you're familiar with using git branches.)</p>
+<p>So, after creating the repo, as instructed on the 
+<a href="https://help.github.com/articles/user-organization-and-project-pages/">Help Page</a>,
+I can use <code>git clone</code> to clone it into my local folder, then add the new posts
+I want and send them back up with <code>git push origin master</code>.</p>
+<p>But I'm not creating the pages myself - I'm using Pelican to generate the pages!
+So I'll have to set up the source files outside, and tell Pelican to store the 
+generated pages in my git repo folder.</p>
+<h2>Meet the Pelican</h2>
+<p>Pelican is a pages content generator, similar to Jekyll but written in Python.
+Since I already had Python and virtualenv installed, all I had to do to get
+Pelican was <code>pip install markdown pelican</code>. I needed to install <code>markdown</code> as
+well because I was planning to write my source posts in <a href="http://daringfireball.net/projects/markdown/">markdown</a>.</p>
+<p>To install a Pelican website, you <code>cd</code> to that folder and do <code>pelican-quickstart</code>
+(note: single command).
+This is an interactive command, which asks you for various info to generate your
+initial config file, like this:</p>
+<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd</span> /home/hippo/Desktop
+<span class="nv">$ </span>mkdir pelitest
+<span class="nv">$ </span><span class="nb">cd </span>pelitest
+<span class="nv">$ </span>pelican-quickstart
+
+Welcome to pelican-quickstart v3.5.0.
+
+This script will <span class="nb">help </span>you create a new Pelican-based website.
+
+Please answer the following questions so this script can generate the files
+needed by Pelican.
+
+&gt; Where <span class="k">do</span> you want to create your new web site? <span class="o">[</span>.<span class="o">]</span>  
+&gt; What will be the title of this web site? My Pelican Blog
+&gt; Who will be the author of this web site? Badri Sunderarajan
+&gt; What will be the default language of this web site? <span class="o">[</span>en<span class="o">]</span>  
+&gt; Do you want to specify a URL prefix? e.g., http://example.com   <span class="o">(</span>Y/n<span class="o">)</span>  y
+&gt; What is your URL prefix? <span class="o">(</span>see above example<span class="p">;</span> no trailing slash<span class="o">)</span> http://badrihippo.github.io
+&gt; Do you want to <span class="nb">enable </span>article pagination? <span class="o">(</span>Y/n<span class="o">)</span> y
+&gt; How many articles per page <span class="k">do</span> you want? <span class="o">[</span>10<span class="o">]</span> 
+&gt; Do you want to generate a Fabfile/Makefile to automate generation and publishing? <span class="o">(</span>Y/n<span class="o">)</span> 
+&gt; Do you want an auto-reload <span class="p">&amp;</span> simpleHTTP script to assist with theme and site development? <span class="o">(</span>Y/n<span class="o">)</span> 
+&gt; Do you want to upload your website using FTP? <span class="o">(</span>y/N<span class="o">)</span> n
+&gt; Do you want to upload your website using SSH? <span class="o">(</span>y/N<span class="o">)</span> n
+&gt; Do you want to upload your website using Dropbox? <span class="o">(</span>y/N<span class="o">)</span> n
+&gt; Do you want to upload your website using S3? <span class="o">(</span>y/N<span class="o">)</span> n
+&gt; Do you want to upload your website using Rackspace Cloud Files? <span class="o">(</span>y/N<span class="o">)</span> n
+&gt; Do you want to upload your website using GitHub Pages? <span class="o">(</span>y/N<span class="o">)</span> y
+&gt; Is this your personal page <span class="o">(</span>username.github.io<span class="o">)</span>? <span class="o">(</span>y/N<span class="o">)</span> y
+Done. Your new project is available at /home/hippo/Desktop/pelitest
+</pre></div>
+
+
+<p>Of course, normally I wouldn't create the site on my desktop; this is just for
+the example.</p>
+<p>The above command will create <code>pelicanconf.py</code>, <code>publishconf.py</code>, and two folders:
+<code>content</code> and <code>output</code>. You write posts in the <code>.htm</code>, <code>.rst</code> or <code>.md</code> formats,
+giving the metadata on top. Here's an example <code>.md</code> post:</p>
+<div class="highlight"><pre><span class="n">Title</span><span class="o">:</span> <span class="n">Hello</span> <span class="n">World</span>
+<span class="n">Date</span><span class="o">:</span> <span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">17</span>
+<span class="n">Category</span><span class="o">:</span> <span class="n">Test</span>
+<span class="n">Tags</span><span class="o">:</span> <span class="n">hello</span><span class="o">-</span><span class="n">word</span><span class="o">,</span> <span class="n">pelican</span><span class="o">,</span> <span class="n">test</span>
+
+<span class="n">Hello</span><span class="o">,</span> <span class="o">**</span><span class="n">Pelican</span><span class="o">!**</span>
+
+<span class="n">I</span> <span class="n">see</span> <span class="n">you</span> <span class="n">are</span> <span class="n">rendering</span> <span class="n">my</span> <span class="n">first</span> <span class="n">post</span> <span class="o">:)</span>
+</pre></div>
+
+
+<p>Save this as <code>helloworld.md</code> in the <code>./content</code> folder, and run <code>pelican content</code> 
+to generate the HTML into the <code>output</code> folder, which you can then view in your
+browser.</p>
+<p><img alt="Example Pelican site" src="http://badrihippo.github.io/images/pelisite.png" /></p>
+<p>One tip I got from the Pelican docs is to <code>cd</code> to the <code>output</code> folder and run
+<code>python -m SimpleHTTPServer</code>. This serves the folder contents on <code>localhost:8000</code>,
+allowing your browser to load stylesheets and other media in addition to the main
+<code>.htm</code> page. If you select the option during setup, you can also run the 
+<code>./develop_server.sh</code> script to run a development server.</p>
+<p>There are two config files, as I mentioned earlier: <code>pelicanconf.py</code> is the default
+one used by Pelican, and <code>publishconf.py</code> is where you can put additional settings
+to use in production. To use the publish settings, you do 
+<code>pelican content -s publishconf.py</code>.</p>
+<p>In the config files, you can do various things like add links and change themes,
+but I won't got into those details—you can see the <a href="http://docs.getpelican.com">Pelican docs</a>
+for all the info.</p>
+<p>The setting <em>I'm</em> interested in right now is <code>OUTPUT_PATH</code>, which tells Pelican
+which folder to store the rendered website in. The default is the <code>output</code> folder,
+but I want it to go into my GitHub Pages repo. Setting 
+<code>OUTPUT = '.../badrihippo.github.io</code> does the trick.</p>
+<h2>Set up the Branches</h2>
+<p>While the final HTML content goes to <code>master</code> on the <code>badrihippo.github.io</code> repo,
+I also wanted to have my other Pelican sources and config files available synced.
+So I decided to have <em>two</em> branches on <code>badrihippo.github.io</code>: a <code>pelican</code> branch
+for the source files, and a <code>master</code> branch for the final output. After a bit of
+experimeting, and thanks to <a href="https://gist.github.com/chrisjacob/833223">this gist</a>
+by <a href="https://github.com/chrisjacob">chrisjacob</a>, I finally settled on this directory
+structure:</p>
+<div class="highlight"><pre>badrihippo.github.io/
+├── master/
+│   └── (contents of master branch)
+└── pelican/
+    └── (contents of pelican branch)
+</pre></div>
+
+
+<p>The <code>master</code> branch was already on GitHub, so I created the folder and added the
+repo as origin, and pulled changes:</p>
+<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd </span>badrihippo.github.io <span class="c"># Note: this is a new, empty folder</span>
+<span class="nv">$ </span>mkdir master
+<span class="nv">$ </span>git init    <span class="c"># initialie new git repo</span>
+<span class="nv">$ </span>git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+<span class="nv">$ </span>git pull    <span class="c"># pull changes from repo before any modifications</span>
+</pre></div>
+
+
+<p>The <code>pelican</code> folder already existed, but there was no repo yet. So after moving
+the folder to the correct place (and deleting the <code>output</code> directory), I did:</p>
+<div class="highlight"><pre><span class="nv">$ </span>git init    <span class="c"># initialise new git repo</span>
+<span class="nv">$ </span>git checkout -b pelican    <span class="c"># Create new &#39;pelican&#39; branch</span>
+<span class="nv">$ </span>git add .    <span class="c"># Add &amp; commit files</span>
+<span class="nv">$ </span>git commit
+<span class="nv">$ </span>git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+<span class="nv">$ </span>git push origin pelican <span class="c"># Push changes to GitHub</span>
+</pre></div>
+
+
+<p>The last command creates a new branch called <code>pelican</code> on the GitHub repo, with
+the contents of the local <code>pelican</code> directory/branch inside.</p>
+<p>One more change to do: open <code>publishconf.py</code> and comment out the
+<code>DELETE_OUTPUT_DIRECTORY = True</code> line (or change it to <code>False</code>). That settings
+tells Pelican to delete and re-create the output directory every time pages are
+generated, which is not what we want. Because it'll delete our git repo files as
+well.</p>
+<p>Also set <code>OUTPUT_PATH = '../master/'</code> so your changes get saved into the <code>master</code>
+directory</p>
+<p>Now, you have two folders, each containing a different branch of the Github repo. 
+For safety, you can delete the <code>master</code> branch from the <code>pelcian</code> folder's repo so
+you don't commit to it by mistake:</p>
+<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd </span>pelican
+<span class="nv">$ </span>git branch -d master
+<span class="nv">$ </span>git branch <span class="c"># Check branch status</span>
+* pelican
+</pre></div>
+
+
+<p>Good: the branch is deleted.</p>
+<h2>New Post</h2>
+<p>Now, here's my procedure when writing a new post:</p>
+<ul>
+<li>Write the post in markdown and save it in <code>pelican/content</code></li>
+<li><code>git add</code> and <code>git commit</code> the new post (again from within the <code>pelican</code> folder)</li>
+<li>Run <code>pelican content -s publishconf.py</code>. This generated the website pages in the
+   <code>master</code> directory.</li>
+<li><code>git push origin pelican</code> to upload the source changes</li>
+<li><code>cd ../master</code>, <code>git commit -a</code> and <code>git push origin master</code> to push the published
+   website change.</li>
+</ul>
+<h2>Afterthought</h2>
+<p>Having set this up, I'm wondering: do I really <em>need</em> to have two branches? There's 
+nothing wrong with letting website visitors to see the source folder, if they know
+how to do it: it's all there on GitHub anyway. Maybe I should just tell Pelican to
+save content in the main directory itself (instead of a new <code>output</code> directory), and
+have everything—config files, <code>content</code> folder, templates, and output—all in one branch.</p>
+<p>The setup I described in the article, which I'm using right now, may make sense from a
+git perspective, because the source is tracked separately from generated content (which
+actually needn't be tracked at all). But it would be more convenient to be able to post
+with just one commit. </p>
+<p>And I doubt my blog will need much version control, anyway.</p>
+            </div>
+            <!-- /.entry-content -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'badrihippo-github'; // required: replace example with your forum shortname
+
+                    var disqus_identifier = 'pelican-on-a-branch';
+                var disqus_url = 'http://badrihippo.github.io/pelican-on-a-branch.html';
+
+            var disqus_config = function () {
+                this.language = "en";
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://github.com/badrihippo"><i class="fa fa-github-square fa-lg"></i> github</a></li>
+              </ul>
+            </li>
+
+
+
+            <li class="list-group-item"><a href="http://badrihippo.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group " id="tags">
+                    <li class="list-group-item tag-1">
+                        <a href="http://badrihippo.github.io/tag/code-poetry.html">
+                            code-poetry
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-2">
+                        <a href="http://badrihippo.github.io/tag/markdown.html">
+                            markdown
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-2">
+                        <a href="http://badrihippo.github.io/tag/python.html">
+                            python
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-2">
+                        <a href="http://badrihippo.github.io/tag/git.html">
+                            git
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-2">
+                        <a href="http://badrihippo.github.io/tag/markup.html">
+                            markup
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/code.html">
+                            code
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/pelican.html">
+                            pelican
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/wordplay.html">
+                            wordplay
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/blog.html">
+                            blog
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/internet.html">
+                            internet
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/html.html">
+                            html
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/github.html">
+                            github
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/reading.html">
+                            reading
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/blogs.html">
+                            blogs
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/github-pages.html">
+                            github-pages
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/books.html">
+                            books
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="http://badrihippo.github.io/tag/wysiwyg.html">
+                            wysiwyg
+                        </a>
+                    </li>
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://thekambattupics.tk/" target="_blank">
+                Thekambattu Pictures
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2015 Hippo
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://badrihippo.github.io/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://badrihippo.github.io/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://badrihippo.github.io/theme/js/respond.min.js"></script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'badrihippo-github'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+
+</body>
+</html>
