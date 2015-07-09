@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>~badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/poetry.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-17T00:00:00+05:30</updated><entry><title>Bookmarks</title><link href="http://badrihippo.github.io/bookmarks.html" rel="alternate"></link><updated>2015-05-17T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-17:bookmarks.html</id><summary type="html">&lt;p&gt;The Bookworm&lt;br /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/poetry.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-17T00:00:00+05:30</updated><entry><title>Bookmarks</title><link href="http://badrihippo.github.io/bookmarks.html" rel="alternate"></link><updated>2015-05-17T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-17:bookmarks.html</id><summary type="html">&lt;p&gt;The Bookworm&lt;br /&gt;
 uses Bookmarks&lt;br /&gt;
 to mark Pages&lt;br /&gt;
 in a Book,&lt;/p&gt;
