@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Thekambattu Pictures', 'http://thekambattupics.tk/'),
+LINKS = (('Photos', 'http://thekambattupics.tk/'),
          )
 
 # Social widget
@@ -42,9 +42,11 @@ STATIC_PATHS = ['images']
 
 EXTRA_FAVICON = True
 PAGES_ON_MENU = True
-CATEGORIES_ON_MENU = True
+CATEGORIES_ON_MENU = False
+TAGS_ON_MENU = True
 SHOW_ARTICLE_AUTHOR = False
 GITHUB_ADDRESS = 'https://github.com/badrihippo'
 PROFILE_IMAGE = '//i.imgur.com/NOZOY.gif'
 SITE_SUBTEXT = 'programming and more'
 SO_ADDRESS = 'http://stackoverflow.com/users/1196444/hippo'
+MENU_ITEMS = LINKS
