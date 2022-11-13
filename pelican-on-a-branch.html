@@ -5,7 +5,7 @@
       <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="http://badrihippo.github.io/pelican-on-a-branch.html" />
+    <link rel="canonical" href="/pelican-on-a-branch.html" />
 
     <title>  badrihippo &mdash; Pelican on a Branch
 </title>
@@ -18,7 +18,7 @@
 
 
 
-    <link rel="stylesheet" href="http://badrihippo.github.io/theme/css/style.css">
+    <link rel="stylesheet" href="/theme/css/style.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -27,7 +27,7 @@
 
 
     <meta name="author" content="Hippo">
-    <meta name="description" content="After trying various services like Blogger and Wordpress, I finally settled on GitHub Pages. (The Source Code post earlier explains why). I tried installing Jekyll, but there was some problem with my Ruby installation (partly because I was on Puppy Linux),so I started searching for alternatives. I came across ...">
+    <meta name="description" content="After trying various services like Blogger and Wordpress, I finally settled on GitHub Pages. (The Source Code post earlier explains why). I tried installing Jekyll, but there was some problem with my Ruby installation (partly because I was on Puppy Linux),so I started searching for alternatives. I came across …">
   <meta name="tags" contents="code, python, pelican, git, github, github-pages, blog, ">
 </head>
 
@@ -35,19 +35,19 @@
 <header class="header">
   <div class="container">
       <div class="header-image pull-left">
-        <a class="nodec" href="http://badrihippo.github.io"><img src=//i.imgur.com/NOZOY.gif></a>
+        <a class="nodec" href=""><img src=//i.imgur.com/NOZOY.gif></a>
       </div>
     <div class="header-inner">
       <h1 class="header-name">
-        <a class="nodec" href="http://badrihippo.github.io">badrihippo</a>
+        <a class="nodec" href="">badrihippo</a>
       </h1>
       <h3 class="header-text">programming and more</h3>
       <ul class="header-menu list-inline">
-          <li><a class="nodec" href="http://thekambattupics.tk/" target="_blank">Photos</a></li>
-          <li><a class="nodec" href="http://badrihippo.github.io/tags.html">Tags</a></li>
+          <li><a class="nodec" href="https://thekambattupics.tk/" target="_blank">Photos</a></li>
+          <li><a class="nodec" href="/tags.html">Tags</a></li>
           <li class="muted">|</li>
           <li><a class="nodec icon-github" href="https://github.com/badrihippo"></a></li>
-          <li><a class="nodec icon-stackoverflow" href="http://stackoverflow.com/users/1196444/hippo"></a></li>
+          <li><a class="nodec icon-stackoverflow" href="https://stackoverflow.com/users/1196444/hippo"></a></li>
       </ul>
     </div>
   </div>
@@ -62,7 +62,7 @@
       </li>
       <li class="muted">&middot;</li>
       <li class="post-category">
-        <a href="http://badrihippo.github.io/category/websites.html">Websites</a>
+        <a href="/category/websites.html">Websites</a>
       </li>
         <li class="muted">&middot;</li>
         <li>
@@ -70,7 +70,7 @@
     </ul>
     <div class="post-content">
       <p>After trying various services like Blogger and Wordpress, I finally settled
-on GitHub Pages. (The <a href="http://badrihippo.github.io/source-code.html">Source Code</a> post earlier
+on GitHub Pages. (The <a href="/source-code.html">Source Code</a> post earlier
 explains why). I tried installing Jekyll, but there was some problem with my
 Ruby installation (partly because I was on 
 <a href="http://puppylinux.org">Puppy Linux</a>),so I started searching for alternatives.
@@ -102,59 +102,57 @@ well because I was planning to write my source posts in <a href="http://daringfi
 (note: single command).
 This is an interactive command, which asks you for various info to generate your
 initial config file, like this:</p>
-<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd</span> /home/hippo/Desktop
-<span class="nv">$ </span>mkdir pelitest
-<span class="nv">$ </span><span class="nb">cd </span>pelitest
-<span class="nv">$ </span>pelican-quickstart
+<div class="highlight"><pre><span></span><code><span class="err">$</span><span class="w"> </span><span class="n">cd</span><span class="w"> </span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">hippo</span><span class="o">/</span><span class="n">Desktop</span><span class="w"></span>
+<span class="err">$</span><span class="w"> </span><span class="n">mkdir</span><span class="w"> </span><span class="n">pelitest</span><span class="w"></span>
+<span class="err">$</span><span class="w"> </span><span class="n">cd</span><span class="w"> </span><span class="n">pelitest</span><span class="w"></span>
+<span class="err">$</span><span class="w"> </span><span class="n">pelican</span><span class="o">-</span><span class="n">quickstart</span><span class="w"></span>
 
-Welcome to pelican-quickstart v3.5.0.
+<span class="n">Welcome</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">pelican</span><span class="o">-</span><span class="n">quickstart</span><span class="w"> </span><span class="n">v3</span><span class="mf">.5.0</span><span class="p">.</span><span class="w"></span>
 
-This script will <span class="nb">help </span>you create a new Pelican-based website.
+<span class="n">This</span><span class="w"> </span><span class="n">script</span><span class="w"> </span><span class="n">will</span><span class="w"> </span><span class="n">help</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="k">create</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Pelican</span><span class="o">-</span><span class="n">based</span><span class="w"> </span><span class="n">website</span><span class="p">.</span><span class="w"></span>
 
-Please answer the following questions so this script can generate the files
-needed by Pelican.
+<span class="n">Please</span><span class="w"> </span><span class="n">answer</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">following</span><span class="w"> </span><span class="n">questions</span><span class="w"> </span><span class="n">so</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">script</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">generate</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">files</span><span class="w"></span>
+<span class="n">needed</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="n">Pelican</span><span class="p">.</span><span class="w"></span>
 
-&gt; Where <span class="k">do</span> you want to create your new web site? <span class="o">[</span>.<span class="o">]</span>  
-&gt; What will be the title of this web site? My Pelican Blog
-&gt; Who will be the author of this web site? Badri Sunderarajan
-&gt; What will be the default language of this web site? <span class="o">[</span>en<span class="o">]</span>  
-&gt; Do you want to specify a URL prefix? e.g., http://example.com   <span class="o">(</span>Y/n<span class="o">)</span>  y
-&gt; What is your URL prefix? <span class="o">(</span>see above example<span class="p">;</span> no trailing slash<span class="o">)</span> http://badrihippo.github.io
-&gt; Do you want to <span class="nb">enable </span>article pagination? <span class="o">(</span>Y/n<span class="o">)</span> y
-&gt; How many articles per page <span class="k">do</span> you want? <span class="o">[</span>10<span class="o">]</span> 
-&gt; Do you want to generate a Fabfile/Makefile to automate generation and publishing? <span class="o">(</span>Y/n<span class="o">)</span> 
-&gt; Do you want an auto-reload <span class="p">&amp;</span> simpleHTTP script to assist with theme and site development? <span class="o">(</span>Y/n<span class="o">)</span> 
-&gt; Do you want to upload your website using FTP? <span class="o">(</span>y/N<span class="o">)</span> n
-&gt; Do you want to upload your website using SSH? <span class="o">(</span>y/N<span class="o">)</span> n
-&gt; Do you want to upload your website using Dropbox? <span class="o">(</span>y/N<span class="o">)</span> n
-&gt; Do you want to upload your website using S3? <span class="o">(</span>y/N<span class="o">)</span> n
-&gt; Do you want to upload your website using Rackspace Cloud Files? <span class="o">(</span>y/N<span class="o">)</span> n
-&gt; Do you want to upload your website using GitHub Pages? <span class="o">(</span>y/N<span class="o">)</span> y
-&gt; Is this your personal page <span class="o">(</span>username.github.io<span class="o">)</span>? <span class="o">(</span>y/N<span class="o">)</span> y
-Done. Your new project is available at /home/hippo/Desktop/pelitest
-</pre></div>
-
+<span class="o">&gt;</span><span class="w"> </span><span class="k">Where</span><span class="w"> </span><span class="n">do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="k">create</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">web</span><span class="w"> </span><span class="n">site</span><span class="vm">?</span><span class="w"> </span><span class="o">[</span><span class="n">.</span><span class="o">]</span><span class="w">  </span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">What</span><span class="w"> </span><span class="n">will</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">title</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">web</span><span class="w"> </span><span class="n">site</span><span class="vm">?</span><span class="w"> </span><span class="n">My</span><span class="w"> </span><span class="n">Pelican</span><span class="w"> </span><span class="n">Blog</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Who</span><span class="w"> </span><span class="n">will</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">author</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">web</span><span class="w"> </span><span class="n">site</span><span class="vm">?</span><span class="w"> </span><span class="n">Badri</span><span class="w"> </span><span class="n">Sunderarajan</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">What</span><span class="w"> </span><span class="n">will</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="k">language</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">web</span><span class="w"> </span><span class="n">site</span><span class="vm">?</span><span class="w"> </span><span class="o">[</span><span class="n">en</span><span class="o">]</span><span class="w">  </span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">specify</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">URL</span><span class="w"> </span><span class="k">prefix</span><span class="vm">?</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">g</span><span class="p">.,</span><span class="w"> </span><span class="nl">http</span><span class="p">:</span><span class="o">//</span><span class="n">example</span><span class="p">.</span><span class="n">com</span><span class="w">   </span><span class="p">(</span><span class="n">Y</span><span class="o">/</span><span class="n">n</span><span class="p">)</span><span class="w">  </span><span class="n">y</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">What</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">URL</span><span class="w"> </span><span class="k">prefix</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">see</span><span class="w"> </span><span class="n">above</span><span class="w"> </span><span class="n">example</span><span class="p">;</span><span class="w"> </span><span class="k">no</span><span class="w"> </span><span class="k">trailing</span><span class="w"> </span><span class="n">slash</span><span class="p">)</span><span class="w"> </span><span class="nl">http</span><span class="p">:</span><span class="o">//</span><span class="n">badrihippo</span><span class="p">.</span><span class="n">github</span><span class="p">.</span><span class="n">io</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">enable</span><span class="w"> </span><span class="n">article</span><span class="w"> </span><span class="n">pagination</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">Y</span><span class="o">/</span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="n">y</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">How</span><span class="w"> </span><span class="n">many</span><span class="w"> </span><span class="n">articles</span><span class="w"> </span><span class="n">per</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="n">do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="vm">?</span><span class="w"> </span><span class="o">[</span><span class="n">10</span><span class="o">]</span><span class="w"> </span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">generate</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">Fabfile</span><span class="o">/</span><span class="n">Makefile</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">automate</span><span class="w"> </span><span class="n">generation</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">publishing</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">Y</span><span class="o">/</span><span class="n">n</span><span class="p">)</span><span class="w"> </span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">an</span><span class="w"> </span><span class="n">auto</span><span class="o">-</span><span class="n">reload</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">simpleHTTP</span><span class="w"> </span><span class="n">script</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">assist</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="n">theme</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">site</span><span class="w"> </span><span class="n">development</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">Y</span><span class="o">/</span><span class="n">n</span><span class="p">)</span><span class="w"> </span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">upload</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">using</span><span class="w"> </span><span class="n">FTP</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">upload</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">using</span><span class="w"> </span><span class="n">SSH</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">upload</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">using</span><span class="w"> </span><span class="n">Dropbox</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">upload</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">using</span><span class="w"> </span><span class="n">S3</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">upload</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">using</span><span class="w"> </span><span class="n">Rackspace</span><span class="w"> </span><span class="n">Cloud</span><span class="w"> </span><span class="n">Files</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">n</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">upload</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">using</span><span class="w"> </span><span class="n">GitHub</span><span class="w"> </span><span class="n">Pages</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">y</span><span class="w"></span>
+<span class="o">&gt;</span><span class="w"> </span><span class="k">Is</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">personal</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="p">(</span><span class="n">username</span><span class="p">.</span><span class="n">github</span><span class="p">.</span><span class="n">io</span><span class="p">)</span><span class="vm">?</span><span class="w"> </span><span class="p">(</span><span class="n">y</span><span class="o">/</span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">y</span><span class="w"></span>
+<span class="n">Done</span><span class="p">.</span><span class="w"> </span><span class="n">Your</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">project</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">available</span><span class="w"> </span><span class="k">at</span><span class="w"> </span><span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">hippo</span><span class="o">/</span><span class="n">Desktop</span><span class="o">/</span><span class="n">pelitest</span><span class="w"></span>
+</code></pre></div>
 
 <p>Of course, normally I wouldn't create the site on my desktop; this is just for
 the example.</p>
 <p>The above command will create <code>pelicanconf.py</code>, <code>publishconf.py</code>, and two folders:
 <code>content</code> and <code>output</code>. You write posts in the <code>.htm</code>, <code>.rst</code> or <code>.md</code> formats,
 giving the metadata on top. Here's an example <code>.md</code> post:</p>
-<div class="highlight"><pre><span class="n">Title</span><span class="o">:</span> <span class="n">Hello</span> <span class="n">World</span>
-<span class="n">Date</span><span class="o">:</span> <span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">17</span>
-<span class="n">Category</span><span class="o">:</span> <span class="n">Test</span>
-<span class="n">Tags</span><span class="o">:</span> <span class="n">hello</span><span class="o">-</span><span class="n">word</span><span class="o">,</span> <span class="n">pelican</span><span class="o">,</span> <span class="n">test</span>
+<div class="highlight"><pre><span></span><code><span class="n">Title</span><span class="o">:</span><span class="w"> </span><span class="n">Hello</span><span class="w"> </span><span class="n">World</span><span class="w"></span>
+<span class="n">Date</span><span class="o">:</span><span class="w"> </span><span class="mi">2015</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">17</span><span class="w"></span>
+<span class="n">Category</span><span class="o">:</span><span class="w"> </span><span class="n">Test</span><span class="w"></span>
+<span class="n">Tags</span><span class="o">:</span><span class="w"> </span><span class="n">hello</span><span class="o">-</span><span class="n">word</span><span class="o">,</span><span class="w"> </span><span class="n">pelican</span><span class="o">,</span><span class="w"> </span><span class="n">test</span><span class="w"></span>
 
-<span class="n">Hello</span><span class="o">,</span> <span class="o">**</span><span class="n">Pelican</span><span class="o">!**</span>
+<span class="n">Hello</span><span class="o">,</span><span class="w"> </span><span class="o">**</span><span class="n">Pelican</span><span class="o">!**</span><span class="w"></span>
 
-<span class="n">I</span> <span class="n">see</span> <span class="n">you</span> <span class="n">are</span> <span class="n">rendering</span> <span class="n">my</span> <span class="n">first</span> <span class="n">post</span> <span class="o">:)</span>
-</pre></div>
-
+<span class="n">I</span><span class="w"> </span><span class="n">see</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">rendering</span><span class="w"> </span><span class="n">my</span><span class="w"> </span><span class="n">first</span><span class="w"> </span><span class="n">post</span><span class="w"> </span><span class="o">:)</span><span class="w"></span>
+</code></pre></div>
 
 <p>Save this as <code>helloworld.md</code> in the <code>./content</code> folder, and run <code>pelican content</code> 
 to generate the HTML into the <code>output</code> folder, which you can then view in your
 browser.</p>
-<p><img alt="Example Pelican site" src="http://badrihippo.github.io/images/pelisite.png" /></p>
+<p><img alt="Example Pelican site" src="/images/pelisite.png"></p>
 <p>One tip I got from the Pelican docs is to <code>cd</code> to the <code>output</code> folder and run
 <code>python -m SimpleHTTPServer</code>. This serves the folder contents on <code>localhost:8000</code>,
 allowing your browser to load stylesheets and other media in addition to the main
@@ -179,34 +177,31 @@ for the source files, and a <code>master</code> branch for the final output. Aft
 experimeting, and thanks to <a href="https://gist.github.com/chrisjacob/833223">this gist</a>
 by <a href="https://github.com/chrisjacob">chrisjacob</a>, I finally settled on this directory
 structure:</p>
-<div class="highlight"><pre>badrihippo.github.io/
+<div class="highlight"><pre><span></span><code>badrihippo.github.io/
 ├── master/
 │   └── (contents of master branch)
 └── pelican/
     └── (contents of pelican branch)
-</pre></div>
-
+</code></pre></div>
 
 <p>The <code>master</code> branch was already on GitHub, so I created the folder and added the
 repo as origin, and pulled changes:</p>
-<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd </span>badrihippo.github.io <span class="c"># Note: this is a new, empty folder</span>
-<span class="nv">$ </span>mkdir master
-<span class="nv">$ </span>git init    <span class="c"># initialie new git repo</span>
-<span class="nv">$ </span>git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
-<span class="nv">$ </span>git pull    <span class="c"># pull changes from repo before any modifications</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ <span class="nb">cd</span> badrihippo.github.io <span class="c1"># Note: this is a new, empty folder</span>
+$ mkdir master
+$ git init    <span class="c1"># initialie new git repo</span>
+$ git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+$ git pull    <span class="c1"># pull changes from repo before any modifications</span>
+</code></pre></div>
 
 <p>The <code>pelican</code> folder already existed, but there was no repo yet. So after moving
 the folder to the correct place (and deleting the <code>output</code> directory), I did:</p>
-<div class="highlight"><pre><span class="nv">$ </span>git init    <span class="c"># initialise new git repo</span>
-<span class="nv">$ </span>git checkout -b pelican    <span class="c"># Create new &#39;pelican&#39; branch</span>
-<span class="nv">$ </span>git add .    <span class="c"># Add &amp; commit files</span>
-<span class="nv">$ </span>git commit
-<span class="nv">$ </span>git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
-<span class="nv">$ </span>git push origin pelican <span class="c"># Push changes to GitHub</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>$ git init    <span class="c1"># initialise new git repo</span>
+$ git checkout -b pelican    <span class="c1"># Create new &#39;pelican&#39; branch</span>
+$ git add .    <span class="c1"># Add &amp; commit files</span>
+$ git commit
+$ git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+$ git push origin pelican <span class="c1"># Push changes to GitHub</span>
+</code></pre></div>
 
 <p>The last command creates a new branch called <code>pelican</code> on the GitHub repo, with
 the contents of the local <code>pelican</code> directory/branch inside.</p>
@@ -220,12 +215,11 @@ directory</p>
 <p>Now, you have two folders, each containing a different branch of the Github repo. 
 For safety, you can delete the <code>master</code> branch from the <code>pelcian</code> folder's repo so
 you don't commit to it by mistake:</p>
-<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd </span>pelican
-<span class="nv">$ </span>git branch -d master
-<span class="nv">$ </span>git branch <span class="c"># Check branch status</span>
+<div class="highlight"><pre><span></span><code>$ <span class="nb">cd</span> pelican
+$ git branch -d master
+$ git branch <span class="c1"># Check branch status</span>
 * pelican
-</pre></div>
-
+</code></pre></div>
 
 <p>Good: the branch is deleted.</p>
 <h2>New Post</h2>
@@ -254,28 +248,6 @@ with just one commit. </p>
   </div>
   <hr class="separator">
   <div class="col-md-8 col-md-offset-2">
-  <div id="disqus_thread">
-    <script>
-      var disqus_shortname = 'badrihippo-github';
-      (function() {
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] ||
-         document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>
-      Please enable JavaScript to view the
-      <a href="https://disqus.com/?ref_noscript=badrihippo-github">
-        comments powered by Disqus.
-      </a>
-    </noscript>
-    <a href="https://disqus.com" class="dsq-brlink">
-      blog comments powered by <span class="logo-disqus">Disqus</span>
-    </a>
-  </div>
   </div>
   </div>
 <footer class="footer">
@@ -288,8 +260,8 @@ with just one commit. </p>
     </div>
   </div>
 </footer> <!-- /.footer -->
-  <script src="http://badrihippo.github.io/theme/js/jquery.min.js"></script>
-  <script src="http://badrihippo.github.io/theme/js/bootstrap.min.js"></script>
+  <script src="/theme/js/jquery.min.js"></script>
+  <script src="/theme/js/bootstrap.min.js"></script>
 </body> <!-- 42 -->
 
 </html>
