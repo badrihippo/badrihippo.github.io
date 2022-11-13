@@ -4,8 +4,10 @@
 .highlight pre .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight pre .k { font-weight: bold } /* Keyword */
 .highlight pre .o { font-weight: bold } /* Operator */
+.highlight pre .ch { color: #999988; font-style: italic } /* Comment.Hashbang */
 .highlight pre .cm { color: #999988; font-style: italic } /* Comment.Multiline */
 .highlight pre .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight pre .cpf { color: #999988; font-style: italic } /* Comment.PreprocFile */
 .highlight pre .c1 { color: #999988; font-style: italic } /* Comment.Single */
 .highlight pre .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
 .highlight pre .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */

@@ -2,8 +2,10 @@
 .highlight pre  { background: #000000; }
 .highlight pre .c { color: #00ff00 } /* Comment */
 .highlight pre .k { color: #ff0000 } /* Keyword */
+.highlight pre .ch { color: #00ff00 } /* Comment.Hashbang */
 .highlight pre .cm { color: #00ff00 } /* Comment.Multiline */
 .highlight pre .cp { color: #e5e5e5 } /* Comment.Preproc */
+.highlight pre .cpf { color: #00ff00 } /* Comment.PreprocFile */
 .highlight pre .c1 { color: #00ff00 } /* Comment.Single */
 .highlight pre .cs { color: #00ff00 } /* Comment.Special */
 .highlight pre .kc { color: #ff0000 } /* Keyword.Constant */

@@ -3,7 +3,9 @@
 .highlight pre .c { font-style: italic } /* Comment */
 .highlight pre .err { border: 1px solid #FF0000 } /* Error */
 .highlight pre .k { font-weight: bold } /* Keyword */
+.highlight pre .ch { font-style: italic } /* Comment.Hashbang */
 .highlight pre .cm { font-style: italic } /* Comment.Multiline */
+.highlight pre .cpf { font-style: italic } /* Comment.PreprocFile */
 .highlight pre .c1 { font-style: italic } /* Comment.Single */
 .highlight pre .cs { font-style: italic } /* Comment.Special */
 .highlight pre .ge { font-style: italic } /* Generic.Emph */

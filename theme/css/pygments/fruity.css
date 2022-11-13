@@ -10,8 +10,10 @@
 .highlight pre .o { color: #ffffff } /* Operator */
 .highlight pre .x { color: #ffffff } /* Other */
 .highlight pre .p { color: #ffffff } /* Punctuation */
+.highlight pre .ch { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Hashbang */
 .highlight pre .cm { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Multiline */
 .highlight pre .cp { color: #ff0007; font-weight: bold; font-style: italic; background-color: #0f140f } /* Comment.Preproc */
+.highlight pre .cpf { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.PreprocFile */
 .highlight pre .c1 { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Single */
 .highlight pre .cs { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Special */
 .highlight pre .gd { color: #ffffff } /* Generic.Deleted */

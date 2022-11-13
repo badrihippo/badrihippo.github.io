@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-11T00:00:00+05:30</updated><entry><title>Source Code</title><link href="http://badrihippo.github.io/source-code.html" rel="alternate"></link><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:source-code.html</id><summary type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>badrihippo - misc</title><link href="https://badrihippo.github.io/" rel="alternate"></link><link href="https://badrihippo.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://badrihippo.github.io/</id><updated>2015-05-11T00:00:00+05:30</updated><entry><title>Source Code</title><link href="https://badrihippo.github.io/source-code.html" rel="alternate"></link><published>2015-05-11T00:00:00+05:30</published><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:/source-code.html</id><summary type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
+have different sets of features. Blogger is a simple blog. Wordpress allows you 
+to add more customization, pages, and widgets. Tumblr is more like a microblog,
+with your posts coming in Twitter-style streams as well as personal, themable 
+blog …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
 have different sets of features. Blogger is a simple blog. Wordpress allows you 
 to add more customization, pages, and widgets. Tumblr is more like a microblog,
 with your posts coming in Twitter-style streams as well as personal, themable 
@@ -43,7 +47,7 @@ markup: complete with all its extra formatting and styling! From emails, it's
 even worse than from web pages, because elements can't even be given classes
 from elsewhere. Each element needs to be have its styles embedded into its tag,
 giving you something like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;A&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;b&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;villanelle&lt;span class="nt"&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;(also known as&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
@@ -61,15 +65,13 @@ giving you something like this:&lt;/p&gt;
 &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;.&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Ahem. How about just&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A villanelle (also known as villanesque) is a nineteen-line poetic form 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A villanelle (also known as villanesque) is a nineteen-line poetic form 
 consisting of five tercets (three line stanza)  followed by a quatrain 
 (four line stanza).&lt;span class="nt"&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Much simpler, and the extra styling isn't even required in the email! The
 line-breaks are mine, by the way.&lt;/p&gt;
@@ -78,4 +80,4 @@ convert them to another format, I can just re-generate from &lt;code&gt;.md&lt;/
 having to hand-edit the styling to make it fit. After a lot of searching, I've
 finally found a blogging platform that works for me.&lt;/p&gt;
 &lt;p&gt;For now, at least.&lt;/p&gt;
-&lt;p&gt;Hopefully.&lt;/p&gt;</summary><category term="markdown"></category><category term="blogs"></category><category term="markup"></category><category term="html"></category><category term="wysiwyg"></category></entry></feed>
+&lt;p&gt;Hopefully.&lt;/p&gt;</content><category term="misc"></category><category term="markdown"></category><category term="blogs"></category><category term="markup"></category><category term="html"></category><category term="wysiwyg"></category></entry></feed>

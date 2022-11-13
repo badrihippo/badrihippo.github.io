@@ -1,29 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>badrihippo</title><link href="http://badrihippo.github.io/" rel="alternate"></link><link href="http://badrihippo.github.io/feeds/all.atom.xml" rel="self"></link><id>http://badrihippo.github.io/</id><updated>2015-05-17T00:00:00+05:30</updated><entry><title>Bookmarks</title><link href="http://badrihippo.github.io/bookmarks.html" rel="alternate"></link><updated>2015-05-17T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-17:bookmarks.html</id><summary type="html">&lt;p&gt;The Bookworm&lt;br /&gt;
-uses Bookmarks&lt;br /&gt;
-to mark Pages&lt;br /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>badrihippo</title><link href="https://badrihippo.github.io/" rel="alternate"></link><link href="https://badrihippo.github.io/feeds/all.atom.xml" rel="self"></link><id>https://badrihippo.github.io/</id><updated>2015-05-17T00:00:00+05:30</updated><entry><title>Bookmarks</title><link href="https://badrihippo.github.io/bookmarks.html" rel="alternate"></link><published>2015-05-17T00:00:00+05:30</published><updated>2015-05-17T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-17:/bookmarks.html</id><summary type="html">&lt;p&gt;The Bookworm&lt;br&gt;
+uses Bookmarks&lt;br&gt;
+to mark Pages&lt;br&gt;
 in a Book,&lt;/p&gt;
-&lt;p&gt;The Firefox&lt;br /&gt;
-uses Bookmarks&lt;br /&gt;
-to mark Pages&lt;br /&gt;
+&lt;p&gt;The Firefox&lt;br&gt;
+uses Bookmarks&lt;br&gt;
+to mark Pages&lt;br&gt;
 on the Net.&lt;/p&gt;
-&lt;p&gt;The Dog-Ear&lt;br /&gt;
-is a Bookmark&lt;br /&gt;
-that leaves a Mark&lt;br /&gt;
+&lt;p&gt;The Dog-Ear&lt;br&gt;
+is a Bookmark&lt;br&gt;
+that leaves a Mark&lt;br&gt;
 on the book Page,&lt;/p&gt;
-&lt;p&gt;The Facebook&lt;br /&gt;
-can share Bookmarks&lt;br /&gt;
-to the Pages&lt;br /&gt;
+&lt;p&gt;The Facebook&lt;br&gt;
+can share Bookmarks&lt;br&gt;
+to the Pages&lt;br&gt;
 that you set.&lt;/p&gt;
-&lt;p&gt;The Silverfish&lt;br /&gt;
-makes Tooth-Marks&lt;br /&gt;
-on the Page-Ends&lt;br /&gt;
+&lt;p&gt;The Silverfish&lt;br&gt;
+makes Tooth-Marks&lt;br&gt;
+on the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The Bookworm&lt;br&gt;
+uses Bookmarks&lt;br&gt;
+to mark Pages&lt;br&gt;
+in a Book,&lt;/p&gt;
+&lt;p&gt;The Firefox&lt;br&gt;
+uses Bookmarks&lt;br&gt;
+to mark Pages&lt;br&gt;
+on the Net.&lt;/p&gt;
+&lt;p&gt;The Dog-Ear&lt;br&gt;
+is a Bookmark&lt;br&gt;
+that leaves a Mark&lt;br&gt;
+on the book Page,&lt;/p&gt;
+&lt;p&gt;The Facebook&lt;br&gt;
+can share Bookmarks&lt;br&gt;
+to the Pages&lt;br&gt;
+that you set.&lt;/p&gt;
+&lt;p&gt;The Silverfish&lt;br&gt;
+makes Tooth-Marks&lt;br&gt;
+on the Page-Ends&lt;br&gt;
 of a Book,&lt;/p&gt;
-&lt;p&gt;The Myself,&lt;br /&gt;
-I've not figured out&lt;br /&gt;
-what a Bookmark&lt;br /&gt;
-is, yet.&lt;/p&gt;</summary><category term="code-poetry"></category><category term="books"></category><category term="reading"></category><category term="internet"></category><category term="wordplay"></category></entry><entry><title>Pelican on a Branch</title><link href="http://badrihippo.github.io/pelican-on-a-branch.html" rel="alternate"></link><updated>2015-05-17T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-17:pelican-on-a-branch.html</id><summary type="html">&lt;p&gt;After trying various services like Blogger and Wordpress, I finally settled
-on GitHub Pages. (The &lt;a href="http://badrihippo.github.io/source-code.html"&gt;Source Code&lt;/a&gt; post earlier
+&lt;p&gt;The Myself,&lt;br&gt;
+I've not figured out&lt;br&gt;
+what a Bookmark&lt;br&gt;
+is, yet.&lt;/p&gt;</content><category term="Poetry"></category><category term="code-poetry"></category><category term="books"></category><category term="reading"></category><category term="internet"></category><category term="wordplay"></category></entry><entry><title>Pelican on a Branch</title><link href="https://badrihippo.github.io/pelican-on-a-branch.html" rel="alternate"></link><published>2015-05-17T00:00:00+05:30</published><updated>2015-05-17T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-17:/pelican-on-a-branch.html</id><summary type="html">&lt;p&gt;After trying various services like Blogger and Wordpress, I finally settled
+on GitHub Pages. (The &lt;a href="https://badrihippo.github.io/source-code.html"&gt;Source Code&lt;/a&gt; post earlier
+explains why). I tried installing Jekyll, but there was some problem with my
+Ruby installation (partly because I was on 
+&lt;a href="http://puppylinux.org"&gt;Puppy Linux&lt;/a&gt;),so I started searching for alternatives.
+I came across …&lt;/p&gt;</summary><content type="html">&lt;p&gt;After trying various services like Blogger and Wordpress, I finally settled
+on GitHub Pages. (The &lt;a href="https://badrihippo.github.io/source-code.html"&gt;Source Code&lt;/a&gt; post earlier
 explains why). I tried installing Jekyll, but there was some problem with my
 Ruby installation (partly because I was on 
 &lt;a href="http://puppylinux.org"&gt;Puppy Linux&lt;/a&gt;),so I started searching for alternatives.
@@ -55,59 +78,57 @@ well because I was planning to write my source posts in &lt;a href="http://darin
 (note: single command).
 This is an interactive command, which asks you for various info to generate your
 initial config file, like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/hippo/Desktop
-&lt;span class="nv"&gt;$ &lt;/span&gt;mkdir pelitest
-&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;pelitest
-&lt;span class="nv"&gt;$ &lt;/span&gt;pelican-quickstart
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;home&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;hippo&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Desktop&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pelitest&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pelitest&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;quickstart&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-Welcome to pelican-quickstart v3.5.0.
+&lt;span class="n"&gt;Welcome&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;quickstart&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;v3&lt;/span&gt;&lt;span class="mf"&gt;.5.0&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-This script will &lt;span class="nb"&gt;help &lt;/span&gt;you create a new Pelican-based website.
+&lt;span class="n"&gt;This&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;script&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;will&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;help&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;create&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;based&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;website&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-Please answer the following questions so this script can generate the files
-needed by Pelican.
+&lt;span class="n"&gt;Please&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;answer&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;following&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;questions&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;so&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;this&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;script&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;can&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;generate&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;files&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;needed&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;by&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pelican&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&amp;gt; Where &lt;span class="k"&gt;do&lt;/span&gt; you want to create your new web site? &lt;span class="o"&gt;[&lt;/span&gt;.&lt;span class="o"&gt;]&lt;/span&gt;  
-&amp;gt; What will be the title of this web site? My Pelican Blog
-&amp;gt; Who will be the author of this web site? Badri Sunderarajan
-&amp;gt; What will be the default language of this web site? &lt;span class="o"&gt;[&lt;/span&gt;en&lt;span class="o"&gt;]&lt;/span&gt;  
-&amp;gt; Do you want to specify a URL prefix? e.g., http://example.com   &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt;  y
-&amp;gt; What is your URL prefix? &lt;span class="o"&gt;(&lt;/span&gt;see above example&lt;span class="p"&gt;;&lt;/span&gt; no trailing slash&lt;span class="o"&gt;)&lt;/span&gt; http://badrihippo.github.io
-&amp;gt; Do you want to &lt;span class="nb"&gt;enable &lt;/span&gt;article pagination? &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt; y
-&amp;gt; How many articles per page &lt;span class="k"&gt;do&lt;/span&gt; you want? &lt;span class="o"&gt;[&lt;/span&gt;10&lt;span class="o"&gt;]&lt;/span&gt; 
-&amp;gt; Do you want to generate a Fabfile/Makefile to automate generation and publishing? &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt; 
-&amp;gt; Do you want an auto-reload &lt;span class="p"&gt;&amp;amp;&lt;/span&gt; simpleHTTP script to assist with theme and site development? &lt;span class="o"&gt;(&lt;/span&gt;Y/n&lt;span class="o"&gt;)&lt;/span&gt; 
-&amp;gt; Do you want to upload your website using FTP? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
-&amp;gt; Do you want to upload your website using SSH? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
-&amp;gt; Do you want to upload your website using Dropbox? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
-&amp;gt; Do you want to upload your website using S3? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
-&amp;gt; Do you want to upload your website using Rackspace Cloud Files? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; n
-&amp;gt; Do you want to upload your website using GitHub Pages? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; y
-&amp;gt; Is this your personal page &lt;span class="o"&gt;(&lt;/span&gt;username.github.io&lt;span class="o"&gt;)&lt;/span&gt;? &lt;span class="o"&gt;(&lt;/span&gt;y/N&lt;span class="o"&gt;)&lt;/span&gt; y
-Done. Your new project is available at /home/hippo/Desktop/pelitest
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;Where&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;create&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;web&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;.&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;What&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;will&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;this&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;web&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;My&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pelican&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Blog&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Who&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;will&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;this&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;web&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Badri&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Sunderarajan&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;What&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;will&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;language&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;this&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;web&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;en&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;specify&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;URL&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;prefix&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;g&lt;/span&gt;&lt;span class="p"&gt;.,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;example&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;What&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;URL&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;prefix&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;see&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;above&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;example&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;no&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;trailing&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;slash&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nl"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;badrihippo&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;io&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;enable&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pagination&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;How&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;many&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;articles&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;per&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;page&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;10&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;generate&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Fabfile&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Makefile&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;automate&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;generation&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;publishing&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;an&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;auto&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;reload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;simpleHTTP&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;script&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;assist&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;with&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;theme&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;development&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;upload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;website&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;using&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;FTP&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;upload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;website&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;using&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;SSH&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;upload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;website&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;using&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Dropbox&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;upload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;website&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;using&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;S3&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;upload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;website&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;using&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Rackspace&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Cloud&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Files&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Do&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;upload&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;website&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;using&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;GitHub&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pages&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;Is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;this&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;personal&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;page&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;username&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;io&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;N&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;Done&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;project&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;available&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;at&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;home&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;hippo&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Desktop&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pelitest&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Of course, normally I wouldn't create the site on my desktop; this is just for
 the example.&lt;/p&gt;
 &lt;p&gt;The above command will create &lt;code&gt;pelicanconf.py&lt;/code&gt;, &lt;code&gt;publishconf.py&lt;/code&gt;, and two folders:
 &lt;code&gt;content&lt;/code&gt; and &lt;code&gt;output&lt;/code&gt;. You write posts in the &lt;code&gt;.htm&lt;/code&gt;, &lt;code&gt;.rst&lt;/code&gt; or &lt;code&gt;.md&lt;/code&gt; formats,
 giving the metadata on top. Here's an example &lt;code&gt;.md&lt;/code&gt; post:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Hello&lt;/span&gt; &lt;span class="n"&gt;World&lt;/span&gt;
-&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;
-&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Test&lt;/span&gt;
-&lt;span class="n"&gt;Tags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;hello&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;word&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;test&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Hello&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;World&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2015&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Test&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;Tags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;hello&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;word&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;test&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="n"&gt;Hello&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;Pelican&lt;/span&gt;&lt;span class="o"&gt;!**&lt;/span&gt;
+&lt;span class="n"&gt;Hello&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;Pelican&lt;/span&gt;&lt;span class="o"&gt;!**&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;see&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;are&lt;/span&gt; &lt;span class="n"&gt;rendering&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="n"&gt;first&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt; &lt;span class="o"&gt;:)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;see&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;are&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;rendering&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;my&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Save this as &lt;code&gt;helloworld.md&lt;/code&gt; in the &lt;code&gt;./content&lt;/code&gt; folder, and run &lt;code&gt;pelican content&lt;/code&gt; 
 to generate the HTML into the &lt;code&gt;output&lt;/code&gt; folder, which you can then view in your
 browser.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Example Pelican site" src="http://badrihippo.github.io/images/pelisite.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Pelican site" src="https://badrihippo.github.io/images/pelisite.png"&gt;&lt;/p&gt;
 &lt;p&gt;One tip I got from the Pelican docs is to &lt;code&gt;cd&lt;/code&gt; to the &lt;code&gt;output&lt;/code&gt; folder and run
 &lt;code&gt;python -m SimpleHTTPServer&lt;/code&gt;. This serves the folder contents on &lt;code&gt;localhost:8000&lt;/code&gt;,
 allowing your browser to load stylesheets and other media in addition to the main
@@ -132,34 +153,31 @@ for the source files, and a &lt;code&gt;master&lt;/code&gt; branch for the final
 experimeting, and thanks to &lt;a href="https://gist.github.com/chrisjacob/833223"&gt;this gist&lt;/a&gt;
 by &lt;a href="https://github.com/chrisjacob"&gt;chrisjacob&lt;/a&gt;, I finally settled on this directory
 structure:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;badrihippo.github.io/
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;badrihippo.github.io/
 ├── master/
 │   └── (contents of master branch)
 └── pelican/
     └── (contents of pelican branch)
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The &lt;code&gt;master&lt;/code&gt; branch was already on GitHub, so I created the folder and added the
 repo as origin, and pulled changes:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;badrihippo.github.io &lt;span class="c"&gt;# Note: this is a new, empty folder&lt;/span&gt;
-&lt;span class="nv"&gt;$ &lt;/span&gt;mkdir master
-&lt;span class="nv"&gt;$ &lt;/span&gt;git init    &lt;span class="c"&gt;# initialie new git repo&lt;/span&gt;
-&lt;span class="nv"&gt;$ &lt;/span&gt;git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
-&lt;span class="nv"&gt;$ &lt;/span&gt;git pull    &lt;span class="c"&gt;# pull changes from repo before any modifications&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; badrihippo.github.io &lt;span class="c1"&gt;# Note: this is a new, empty folder&lt;/span&gt;
+$ mkdir master
+$ git init    &lt;span class="c1"&gt;# initialie new git repo&lt;/span&gt;
+$ git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+$ git pull    &lt;span class="c1"&gt;# pull changes from repo before any modifications&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The &lt;code&gt;pelican&lt;/code&gt; folder already existed, but there was no repo yet. So after moving
 the folder to the correct place (and deleting the &lt;code&gt;output&lt;/code&gt; directory), I did:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git init    &lt;span class="c"&gt;# initialise new git repo&lt;/span&gt;
-&lt;span class="nv"&gt;$ &lt;/span&gt;git checkout -b pelican    &lt;span class="c"&gt;# Create new &amp;#39;pelican&amp;#39; branch&lt;/span&gt;
-&lt;span class="nv"&gt;$ &lt;/span&gt;git add .    &lt;span class="c"&gt;# Add &amp;amp; commit files&lt;/span&gt;
-&lt;span class="nv"&gt;$ &lt;/span&gt;git commit
-&lt;span class="nv"&gt;$ &lt;/span&gt;git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
-&lt;span class="nv"&gt;$ &lt;/span&gt;git push origin pelican &lt;span class="c"&gt;# Push changes to GitHub&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ git init    &lt;span class="c1"&gt;# initialise new git repo&lt;/span&gt;
+$ git checkout -b pelican    &lt;span class="c1"&gt;# Create new &amp;#39;pelican&amp;#39; branch&lt;/span&gt;
+$ git add .    &lt;span class="c1"&gt;# Add &amp;amp; commit files&lt;/span&gt;
+$ git commit
+$ git remote add origin https://github.com/badrihippo/badrihippo.github.io.git
+$ git push origin pelican &lt;span class="c1"&gt;# Push changes to GitHub&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The last command creates a new branch called &lt;code&gt;pelican&lt;/code&gt; on the GitHub repo, with
 the contents of the local &lt;code&gt;pelican&lt;/code&gt; directory/branch inside.&lt;/p&gt;
@@ -173,12 +191,11 @@ directory&lt;/p&gt;
 &lt;p&gt;Now, you have two folders, each containing a different branch of the Github repo. 
 For safety, you can delete the &lt;code&gt;master&lt;/code&gt; branch from the &lt;code&gt;pelcian&lt;/code&gt; folder's repo so
 you don't commit to it by mistake:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;pelican
-&lt;span class="nv"&gt;$ &lt;/span&gt;git branch -d master
-&lt;span class="nv"&gt;$ &lt;/span&gt;git branch &lt;span class="c"&gt;# Check branch status&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; pelican
+$ git branch -d master
+$ git branch &lt;span class="c1"&gt;# Check branch status&lt;/span&gt;
 * pelican
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Good: the branch is deleted.&lt;/p&gt;
 &lt;h2&gt;New Post&lt;/h2&gt;
@@ -202,37 +219,52 @@ have everything—config files, &lt;code&gt;content&lt;/code&gt; folder, templat
 git perspective, because the source is tracked separately from generated content (which
 actually needn't be tracked at all). But it would be more convenient to be able to post
 with just one commit. &lt;/p&gt;
-&lt;p&gt;And I doubt my blog will need much version control, anyway.&lt;/p&gt;</summary><category term="code"></category><category term="python"></category><category term="pelican"></category><category term="git"></category><category term="github"></category><category term="github-pages"></category><category term="blog"></category></entry><entry><title>Markdown</title><link href="http://badrihippo.github.io/markdown.html" rel="alternate"></link><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:markdown.html</id><summary type="html">&lt;p&gt;I still remember when&lt;br /&gt;
-I first heard about it.&lt;br /&gt;
-&lt;code&gt;.md&lt;/code&gt;—Markdown.&lt;br /&gt;
+&lt;p&gt;And I doubt my blog will need much version control, anyway.&lt;/p&gt;</content><category term="Websites"></category><category term="code"></category><category term="python"></category><category term="pelican"></category><category term="git"></category><category term="github"></category><category term="github-pages"></category><category term="blog"></category></entry><entry><title>Markdown</title><link href="https://badrihippo.github.io/markdown.html" rel="alternate"></link><published>2015-05-11T00:00:00+05:30</published><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:/markdown.html</id><summary type="html">&lt;p&gt;I still remember when&lt;br&gt;
+I first heard about it.&lt;br&gt;
+&lt;code&gt;.md&lt;/code&gt;—Markdown.&lt;br&gt;
 Huh? What is it?&lt;/p&gt;
-&lt;p&gt;It's a language specially&lt;br /&gt;
-for formatting text&lt;br /&gt;
-into a few styles like: &lt;em&gt;italic&lt;/em&gt;,&lt;br /&gt;
+&lt;p&gt;It's a language specially&lt;br&gt;
+for formatting text&lt;br&gt;
+into a few styles like: &lt;em&gt;italic&lt;/em&gt;,&lt;br&gt;
 &lt;strong&gt;bold&lt;/strong&gt;, &lt;code&gt;code&lt;/code&gt;, and &lt;del&gt;cancelled text&lt;/del&gt;.&lt;/p&gt;
-&lt;p&gt;A whole new language&lt;br /&gt;
-just for that simple task?&lt;br /&gt;
-And why can't I just use&lt;br /&gt;
+&lt;p&gt;A whole new language&lt;br&gt;
+just for that simple task?&lt;br&gt;
+And why can't I just use&lt;br&gt;
+HTML, may …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I still remember when&lt;br&gt;
+I first heard about it.&lt;br&gt;
+&lt;code&gt;.md&lt;/code&gt;—Markdown.&lt;br&gt;
+Huh? What is it?&lt;/p&gt;
+&lt;p&gt;It's a language specially&lt;br&gt;
+for formatting text&lt;br&gt;
+into a few styles like: &lt;em&gt;italic&lt;/em&gt;,&lt;br&gt;
+&lt;strong&gt;bold&lt;/strong&gt;, &lt;code&gt;code&lt;/code&gt;, and &lt;del&gt;cancelled text&lt;/del&gt;.&lt;/p&gt;
+&lt;p&gt;A whole new language&lt;br&gt;
+just for that simple task?&lt;br&gt;
+And why can't I just use&lt;br&gt;
 HTML, may I ask?&lt;/p&gt;
-&lt;p&gt;Too complex for newcomers&lt;br /&gt;
-to learn quickly, is it?&lt;br /&gt;
-A WYSIWYG editor&lt;br /&gt;
+&lt;p&gt;Too complex for newcomers&lt;br&gt;
+to learn quickly, is it?&lt;br&gt;
+A WYSIWYG editor&lt;br&gt;
 could help on their visit!&lt;/p&gt;
-&lt;p&gt;Developers don't have time to&lt;br /&gt;
-learn yet another new lang&lt;br /&gt;
-And normal bloggers? Well—&lt;br /&gt;
+&lt;p&gt;Developers don't have time to&lt;br&gt;
+learn yet another new lang&lt;br&gt;
+And normal bloggers? Well—&lt;br&gt;
 they just don't know that they can.&lt;/p&gt;
-&lt;p&gt;Neither simple for newcomers&lt;br /&gt;
-who don't want to code,&lt;br /&gt;
-nor feature-full for devs&lt;br /&gt;
+&lt;p&gt;Neither simple for newcomers&lt;br&gt;
+who don't want to code,&lt;br&gt;
+nor feature-full for devs&lt;br&gt;
 with a lot on their load&lt;/p&gt;
 &lt;p&gt;But now I understand.&lt;/p&gt;
-&lt;p&gt;For simple docs, &lt;code&gt;.htm&lt;/code&gt;&lt;br /&gt;
-is too cumbersome to write.&lt;br /&gt;
-WYSIWYGs don't give results,&lt;br /&gt;
-if complex, without a fight.&lt;br /&gt;
-But &lt;code&gt;.md&lt;/code&gt;—Markdown&lt;br /&gt;
-—it seems just right!&lt;/p&gt;</summary><category term="markdown"></category><category term="markup"></category><category term="code-poetry"></category></entry><entry><title>Source Code</title><link href="http://badrihippo.github.io/source-code.html" rel="alternate"></link><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:source-code.html</id><summary type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
+&lt;p&gt;For simple docs, &lt;code&gt;.htm&lt;/code&gt;&lt;br&gt;
+is too cumbersome to write.&lt;br&gt;
+WYSIWYGs don't give results,&lt;br&gt;
+if complex, without a fight.&lt;br&gt;
+But &lt;code&gt;.md&lt;/code&gt;—Markdown&lt;br&gt;
+—it seems just right!&lt;/p&gt;</content><category term="Poetry"></category><category term="markdown"></category><category term="markup"></category><category term="code-poetry"></category></entry><entry><title>Source Code</title><link href="https://badrihippo.github.io/source-code.html" rel="alternate"></link><published>2015-05-11T00:00:00+05:30</published><updated>2015-05-11T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-11:/source-code.html</id><summary type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
+have different sets of features. Blogger is a simple blog. Wordpress allows you 
+to add more customization, pages, and widgets. Tumblr is more like a microblog,
+with your posts coming in Twitter-style streams as well as personal, themable 
+blog …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've tried out various blogging sites. Wordpress, Blogger, Tumblr. They each 
 have different sets of features. Blogger is a simple blog. Wordpress allows you 
 to add more customization, pages, and widgets. Tumblr is more like a microblog,
 with your posts coming in Twitter-style streams as well as personal, themable 
@@ -276,7 +308,7 @@ markup: complete with all its extra formatting and styling! From emails, it's
 even worse than from web pages, because elements can't even be given classes
 from elsewhere. Each element needs to be have its styles embedded into its tag,
 giving you something like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;A&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;b&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;villanelle&lt;span class="nt"&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;(also known as&lt;span class="ni"&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
@@ -294,15 +326,13 @@ giving you something like this:&lt;/p&gt;
 &lt;span class="nt"&gt;&amp;lt;span&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;color:rgb(0,0,0);font-family:sans-serif;font-size:12.727272033691406px;line-height:19.200000762939453px&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;.&lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Ahem. How about just&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A villanelle (also known as villanesque) is a nineteen-line poetic form 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A villanelle (also known as villanesque) is a nineteen-line poetic form 
 consisting of five tercets (three line stanza)  followed by a quatrain 
 (four line stanza).&lt;span class="nt"&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Much simpler, and the extra styling isn't even required in the email! The
 line-breaks are mine, by the way.&lt;/p&gt;
@@ -311,32 +341,43 @@ convert them to another format, I can just re-generate from &lt;code&gt;.md&lt;/
 having to hand-edit the styling to make it fit. After a lot of searching, I've
 finally found a blogging platform that works for me.&lt;/p&gt;
 &lt;p&gt;For now, at least.&lt;/p&gt;
-&lt;p&gt;Hopefully.&lt;/p&gt;</summary><category term="markdown"></category><category term="blogs"></category><category term="markup"></category><category term="html"></category><category term="wysiwyg"></category></entry><entry><title>git speaks</title><link href="http://badrihippo.github.io/git-speaks.html" rel="alternate"></link><updated>2015-05-06T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-06:git-speaks.html</id><summary type="html">&lt;p&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;All your files&lt;br /&gt;
- are up to date&lt;br /&gt;
-You’ve shown no activity&lt;br /&gt;
+&lt;p&gt;Hopefully.&lt;/p&gt;</content><category term="misc"></category><category term="markdown"></category><category term="blogs"></category><category term="markup"></category><category term="html"></category><category term="wysiwyg"></category></entry><entry><title>git speaks</title><link href="https://badrihippo.github.io/git-speaks.html" rel="alternate"></link><published>2015-05-06T00:00:00+05:30</published><updated>2015-05-06T00:00:00+05:30</updated><author><name>Hippo</name></author><id>tag:badrihippo.github.io,2015-05-06:/git-speaks.html</id><summary type="html">&lt;p&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;All your files&lt;br&gt;
+ are up to date&lt;br&gt;
+You’ve shown no activity&lt;br&gt;
  as of late  &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git checkout -b&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;git checkout -b&lt;/code&gt;&lt;br&gt;
 Getting your act together, I see.  &lt;/p&gt;
-&lt;p&gt;I know you’re in a rush,&lt;br /&gt;
- but all the same&lt;br /&gt;
-it would be a good idea&lt;br /&gt;
+&lt;p&gt;I know you’re in a rush,&lt;br&gt;
+ but all the same&lt;br&gt;
+it would be a good idea&lt;br&gt;
  to specify the branch name.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git checkout -b \&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;all-bugs-eradication&lt;/code&gt;&lt;br /&gt;
-All? You may be enthusiastic,&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;git checkout …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;All your files&lt;br&gt;
+ are up to date&lt;br&gt;
+You’ve shown no activity&lt;br&gt;
+ as of late  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout -b&lt;/code&gt;&lt;br&gt;
+Getting your act together, I see.  &lt;/p&gt;
+&lt;p&gt;I know you’re in a rush,&lt;br&gt;
+ but all the same&lt;br&gt;
+it would be a good idea&lt;br&gt;
+ to specify the branch name.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git checkout -b \&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;all-bugs-eradication&lt;/code&gt;&lt;br&gt;
+All? You may be enthusiastic,&lt;br&gt;
  but isn’t that too much ambition?&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;./test.py&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;./test.py&lt;/code&gt;&lt;br&gt;
 Testing…done. But why!&lt;/p&gt;
-&lt;p&gt;Not a single bug found—&lt;br /&gt;
- that’s too good to be true!&lt;br /&gt;
-Oh, wait, there’s no code either.&lt;br /&gt;
+&lt;p&gt;Not a single bug found—&lt;br&gt;
+ that’s too good to be true!&lt;br&gt;
+Oh, wait, there’s no code either.&lt;br&gt;
  Lots of work ahead for you!&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git checkout master&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;git checkout master&lt;/code&gt;&lt;br&gt;
  Are you planning to work faster?&lt;/p&gt;
-&lt;p&gt;Or leave it to someone else&lt;br /&gt;
- in the spirit of collaboration?&lt;br /&gt;
+&lt;p&gt;Or leave it to someone else&lt;br&gt;
+ in the spirit of collaboration?&lt;br&gt;
 &lt;code&gt;git branch -d \  
  all-bugs-eradication&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;It’s the latter, I see.&lt;br /&gt;
-&lt;code&gt;Ctrl+D&lt;/code&gt;&lt;/p&gt;</summary><category term="git"></category><category term="python"></category><category term="code-poetry"></category></entry></feed>
+&lt;p&gt;It’s the latter, I see.&lt;br&gt;
+&lt;code&gt;Ctrl+D&lt;/code&gt;&lt;/p&gt;</content><category term="Poetry"></category><category term="git"></category><category term="python"></category><category term="code-poetry"></category></entry></feed>

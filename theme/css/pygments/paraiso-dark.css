@@ -7,8 +7,10 @@
 .highlight pre .n { color: #e7e9db } /* Name */
 .highlight pre .o { color: #5bc4bf } /* Operator */
 .highlight pre .p { color: #e7e9db } /* Punctuation */
+.highlight pre .ch { color: #776e71 } /* Comment.Hashbang */
 .highlight pre .cm { color: #776e71 } /* Comment.Multiline */
 .highlight pre .cp { color: #776e71 } /* Comment.Preproc */
+.highlight pre .cpf { color: #776e71 } /* Comment.PreprocFile */
 .highlight pre .c1 { color: #776e71 } /* Comment.Single */
 .highlight pre .cs { color: #776e71 } /* Comment.Special */
 .highlight pre .gd { color: #ef6155 } /* Generic.Deleted */

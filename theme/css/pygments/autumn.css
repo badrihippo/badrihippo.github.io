@@ -3,8 +3,10 @@
 .highlight pre .c { color: #aaaaaa; font-style: italic } /* Comment */
 .highlight pre .err { color: #FF0000; background-color: #FFAAAA } /* Error */
 .highlight pre .k { color: #0000aa } /* Keyword */
+.highlight pre .ch { color: #aaaaaa; font-style: italic } /* Comment.Hashbang */
 .highlight pre .cm { color: #aaaaaa; font-style: italic } /* Comment.Multiline */
 .highlight pre .cp { color: #4c8317 } /* Comment.Preproc */
+.highlight pre .cpf { color: #aaaaaa; font-style: italic } /* Comment.PreprocFile */
 .highlight pre .c1 { color: #aaaaaa; font-style: italic } /* Comment.Single */
 .highlight pre .cs { color: #0000aa; font-style: italic } /* Comment.Special */
 .highlight pre .gd { color: #aa0000 } /* Generic.Deleted */
