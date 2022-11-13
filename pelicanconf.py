@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Photos', 'http://thekambattupics.tk/'),
+LINKS = (('Photos', 'https://thekambattupics.tk/'),
          )
 
 # Social widget
@@ -48,5 +48,5 @@ SHOW_ARTICLE_AUTHOR = False
 GITHUB_ADDRESS = 'https://github.com/badrihippo'
 PROFILE_IMAGE = '//i.imgur.com/NOZOY.gif'
 SITE_SUBTEXT = 'programming and more'
-SO_ADDRESS = 'http://stackoverflow.com/users/1196444/hippo'
+SO_ADDRESS = 'https://stackoverflow.com/users/1196444/hippo'
 MENU_ITEMS = LINKS
